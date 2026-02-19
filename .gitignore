@@ -1,0 +1,12 @@
+# Ignorar pesos de modelos e checkpoints
+*.pth
+*.ckpt.*
+checkpoint
+llm_ativ2/gpt2/
+
+# Ignorar pastas de sistema/cache
+__pycache__/
+*.pyc
+
+# Ignorar plots e PDFs
+*.pdf
