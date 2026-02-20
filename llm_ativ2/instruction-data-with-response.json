@@ -1,662 +1,1402 @@
 [
     {
-        "instruction": "Rewrite the sentence using a simile.",
-        "input": "The car is very fast.",
-        "output": "The car is as fast as lightning.",
-        "model_response": "The car is as fast as a cheetah."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "New OSes, applications from PalmSource PalmSource has been busy lately, and has now announced updates to both of its OS lines as well as a new web browser and OTA installer.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "The new OSes are:\n\nOS X 10.9.5\n\nOS X 10.9.4",
+        "model_ft_medio_response": "Ciência/Tecnologia"
     },
     {
-        "instruction": "What type of cloud is typically associated with thunderstorms?",
-        "input": "",
-        "output": "The type of cloud typically associated with thunderstorms is cumulonimbus.",
-        "model_response": "The type of cloud associated with thunderstorms is a cumulus."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Israel scales back Gaza offensive as Palestinians mark Ramadan JERUSALEM : Israel scaled back its vast operation in northern Gaza despite the deaths of four more Palestinians as tens of thousands of Muslims joined the first Friday prayers of Ramadan at Jerusalem #39;s Al Aqsa mosque.",
+        "output": "Mundo",
+        "model_base_response": "The Israeli military said it had killed a Hamas militant in the operation, which began on Wednesday.\n\n: Israel scaled back",
+        "model_ft_medio_response": "Mundo"
     },
     {
-        "instruction": "Name the author of 'Pride and Prejudice'.",
-        "input": "",
-        "output": "Jane Austen.",
-        "model_response": "The author of 'Pride and Prejudice' is Jane Austen."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "American Express weighs lawsuit vs Visa, MasterCard SAN FRANCISCO (AFX) -- American Express said Monday that in light of the Supreme Court #39;s decision against Visa and MasterCard, it will seek partnerships with US banks.",
+        "output": "Negócios",
+        "model_base_response": "The company said it will also seek to partner with other US banks to offer its cards to customers in the US. \"We",
+        "model_ft_medio_response": "Negócios"
     },
     {
-        "instruction": "What is the periodic symbol for chlorine?",
-        "input": "",
-        "output": "The periodic symbol for chlorine is Cl.",
-        "model_response": "The periodic symbol for chlorine is C."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "UK retail sales growth rebounds British retail sales rose more than expected in October and at their sharpest pace in three months. The Confederation of British Industry said 37 of firms in its monthly distributive trades survey saw sales ",
+        "output": "Negócios",
+        "model_base_response": "increase in October, up from 30 in September.\nThe survey showed that the number of firms reporting sales growth in",
+        "model_ft_medio_response": "Negócios"
     },
     {
-        "instruction": "Correct the punctuation in the sentence.",
-        "input": "Its time to go home.",
-        "output": "The corrected sentence should be: 'It's time to go home.'",
-        "model_response": "The corrected sentence should be: 'Its time to go home.'"
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "IAEA Won't Guarantee Iran Probe Deadline VIENNA, Austria - The head of the U.N. nuclear watchdog agency said Tuesday that he cannot guarantee his probe of Iran's suspect nuclear activities will be complete by November, the deadline sought by the United States and its European allies...",
+        "output": "Mundo",
+        "model_base_response": "### Instrução:\n\nClassifique o texto da notícia abaixo em",
+        "model_ft_medio_response": "Mundo"
     },
     {
-        "instruction": "Rewrite the sentence.",
-        "input": "The lecture was delivered in a clear manner.",
-        "output": "The lecture was delivered clearly.",
-        "model_response": "The lecture was delivered in a clear manner."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "U.S. Treasury Debt Prices Take a Hit  NEW YORK (Reuters) - U.S. Treasury debt prices took a hit  on Wednesday as lackluster interest in new five-year notes left  investors skittish just two days before the crucial September  jobs report.",
+        "output": "Negócios",
+        "model_base_response": "The benchmark 10-year note yield fell to 2.8 percent from 2.9 percent on Wednesday, the lowest since June",
+        "model_ft_medio_response": "Negócios"
     },
     {
-        "instruction": "Generate a humorous anecdote.",
-        "input": "",
-        "output": "Why was the math book sad? Because it had too many problems!",
-        "model_response": "The story was a complete success."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Athens Wrestles to Avoid Cell Phone Outages By MATT MOORE    ATHENS, Greece (AP) -- Amid the roar of the crowd, the silence of the phones can be deafening. As thousands of athletes, spectators, journalists, officials and more descend on the Greek capital ahead of the Aug...",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "### Instrução:\n\nClassifique o texto da notícia abaixo em",
+        "model_ft_medio_response": "Esportes"
     },
     {
-        "instruction": "Identify the correct spelling: 'recieve' or 'receive'.",
-        "input": "",
-        "output": "The correct spelling is 'receive'.",
-        "model_response": "The correct spelling is 'receive'."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Toyota to make Prius hybrid cars in China Japan #39;s largest automaker Toyota Motor Corp. said Wednesday it has reached an agreement with China FAW Group Corp. to jointly produce Toyota #39;s Prius hybrid-engine cars in China by the end of 2005.",
+        "output": "Negócios",
+        "model_base_response": "Toyota said it will produce the cars in China under the Toyota Motor Co. (TM) brand. The agreement will allow Toyota",
+        "model_ft_medio_response": "Negócios"
     },
     {
-        "instruction": "Create a sentence using the word 'nostalgia'.",
-        "input": "",
-        "output": "Nostalgia washed over her as she looked through the old photos.",
-        "model_response": "The memories of the past are very strong."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Yao #39;s 39 carries China past New Zealand ATHENS, Greece - Yao Ming bounced back from a rough opening game with 39 points and 13 rebounds to lead China to a 69-62 victory over New Zealand in the men #39;s basketball Group A tournament Tuesday. ",
+        "output": "Esportes",
+        "model_base_response": "The win was Yao Ming's first in the tournament since the 2012 FIBA Americas Championship.  The win was Yao",
+        "model_ft_medio_response": ""
     },
     {
-        "instruction": "Classify the following numbers as prime or composite.",
-        "input": ": 11, 14, 19.",
-        "output": "Prime numbers: 11, 19\nComposite numbers: 14",
-        "model_response": "Prime numbers: 11, 14, 19"
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Lucent, Unions Extend Talks to Monday Lucent Technologies Inc. (LU.N: Quote, Profile, Research) and unions representing roughly 10 percent of the telecommunications equipment maker #39;s work force on Sunday agreed to extend talks, their second extension in 10 days.",
+        "output": "Negócios",
+        "model_base_response": "### Extrada:\n\nUnions Extend Talks to Monday Unions Extend Talks to Monday Unions Extend Talks",
+        "model_ft_medio_response": "Negócios"
     },
     {
-        "instruction": "What is the capital of Denmark?",
-        "input": "",
-        "output": "The capital of Denmark is Copenhagen.",
-        "model_response": "The capital of Denmark is Copenhagen."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Bank of America to cut 4,500 jobs Bank of America Corp. (NYSE: BAC) plans to cut about 2.5 percent, or 4,500 jobs from its workforce, and it #39;s unclear how those cuts will affect Austin employees.",
+        "output": "Negócios",
+        "model_base_response": "### Enseguir:\n\nBank of America to cut 4,500 jobs Bank of America Corp. (",
+        "model_ft_medio_response": "Negócios"
     },
     {
-        "instruction": "What is the opposite of 'wet'?",
-        "input": "",
-        "output": "The opposite of 'wet' is 'dry'.",
-        "model_response": "The opposite of 'wet' is 'damp'."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Google Strikes Deals for Library Content Google reached agreements with several major research libraries to digitize the content of thousands of books in their archives, adding momentum to the search giant #39;s effort to catalog vast amounts of offline information in addition to Web pages, the ",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "vernaculars, and other online resources.\n\n### Instrução:\n\nEspañol:",
+        "model_ft_medio_response": "Ciência/Tecnologia"
     },
     {
-        "instruction": "Identify the type of sentence.",
-        "input": "Did you finish the report?",
-        "output": "The type of sentence is interrogative.",
-        "model_response": "The type of sentence is imperative."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Connecting with Customers through Search Market Research Want to learn to improve your customers' experience, pinpoint buyers' exact interests and reach prospects at every phase of the buying cycle? Look to your search logs to mine this crucial market research data.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "### Instrução:\n\nClassifique o texto da notícia abaixo em",
+        "model_ft_medio_response": "Negócios"
     },
     {
-        "instruction": "What is the chemical symbol for mercury?",
-        "input": "",
-        "output": "Hg.",
-        "model_response": "The chemical symbol for mercury is Hg."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Martha Stewart Adds to Furniture Line, Including Turkey Hill She may be in a West Virginia prison, but Westport #39;s Martha Stewart is growing her business by adding to her furniture line, including new items to a collection based on her Westport home.",
+        "output": "Negócios",
+        "model_base_response": "### Abril:\n\nAbril is a new line of clothing for women. The line is inspired",
+        "model_ft_medio_response": "Negócios"
     },
     {
-        "instruction": "Describe the process of active transport in cells.",
-        "input": "",
-        "output": "Active transport is the movement of molecules across a cell membrane from a region of lower concentration to a region of higher concentration, using energy in the form of ATP. This process is crucial for maintaining cellular homeostasis.",
-        "model_response": "Transport is the movement of substances from one place to another by means of chemical changes in the cell membrane."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Indian software services, BPO face worker shortage BANGALORE, INDIA - India's software services and business process outsourcing (BPO) industries could face a shortage of skilled workers in the coming years, according to the National Association of Software and Service Companies (NASSCOM) in Delhi.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "The NASSCOM, which represents more than 1,000 BPO companies, said that the number of BPO workers in",
+        "model_ft_medio_response": "Ciência/Tecnologia"
     },
     {
-        "instruction": "Classify the following items as either solid, liquid, or gas.",
-        "input": "Mercury, oxygen, wood",
-        "output": "Mercury - Liquid\nOxygen - Gas\nWood - Solid",
-        "model_response": "Solid: Mercury\nLiquid: Oxygen"
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Thatcher to go it alone MARK Thatcher #39;s wife, Diane, is planning to begin a new life in the US and leave her husband to face the coup scandal alone in South Africa.",
+        "output": "Mundo",
+        "model_base_response": "### Está em que aplicar a través de ações de ação",
+        "model_ft_medio_response": "Mundo"
     },
     {
-        "instruction": "Convert 3 kilometers to meters.",
-        "input": "",
-        "output": "3 kilometers is 3000 meters.",
-        "model_response": "3 kilometers is 3000 meters."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Police patrols at St. Cloud airport to end after funds cut St. Cloud Regional Airport no longer will have regular police presence during its departures and arrivals, airport and police officials said.",
+        "output": "Negócios",
+        "model_base_response": "### Police:\n\nPolice officers will be on duty at St. Cloud Regional Airport to ensure the safety of passengers",
+        "model_ft_medio_response": "Negócios"
     },
     {
-        "instruction": "Convert the sentence to use an indefinite pronoun.",
-        "input": "Someone left a note.",
-        "output": "A note was left by someone.",
-        "model_response": "A note was left by someone."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Iraq Won't Send New Delegation to Najaf Iraq's National Conference refused today to send a second delegation to negotiate an end to fighting between U.S. troops and loyalists of Shiite cleric Moktada al-Sadr.",
+        "output": "Mundo",
+        "model_base_response": "### Delegation:\n\nU.S. Embassy Baghdad, Baghdad, Iraq\n\n### Delegation",
+        "model_ft_medio_response": "Mundo"
     },
     {
-        "instruction": "Provide a synonym for 'excited'.",
-        "input": "",
-        "output": "A synonym for 'excited' is 'thrilled'.",
-        "model_response": "A synonym for 'excited' is 'enthusiastic'."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Twins sign veteran Mulholland to minor league deal Minneapolis, MN (Sports Network) - The Minnesota Twins have come to terms with veteran pitcher Terry Mulholland on a minor league contract.",
+        "output": "Esportes",
+        "model_base_response": "The deal is for one year and includes a club option for the 2018 season.\n\n### Entrada:",
+        "model_ft_medio_response": "Esportes"
     },
     {
-        "instruction": "Generate a sentence that follows the pattern: \"Never have I ever _____ without _____\"",
-        "input": "",
-        "output": "Never have I ever traveled without a map.",
-        "model_response": "Never have I ever without without."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "NASA Chief Said to Be Top Contender for L.S.U. Job Sean O'Keefe has sought and become the top contender for a high-level job at Louisiana State University, according to NASA and university officials.",
+        "output": "Mundo",
+        "model_base_response": "O'Keefe, a former NASA astronaut, is expected to announce his candidacy for the position on Thursday, according to",
+        "model_ft_medio_response": "Ciência/Tecnologia"
     },
     {
-        "instruction": "Pick out the adjective from the following list.",
-        "input": "run, tall, quickly",
-        "output": "The correct adjective from the list is 'tall.'",
-        "model_response": "The adjective from the following list is \"quickly.\""
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Berlusconi says he won #39;t get convicted Italian Prime Minister Silvio Berlusconi says he is confident a court will not convict him on charges of bribing judges.  quot;I don #39;t think there will be a conviction, quot; he said at the presentation ",
+        "output": "Mundo",
+        "model_base_response": "quot; he said he won't get convicted,  quot; he said he won't get convicted,  quot; he",
+        "model_ft_medio_response": "Mundo"
     },
     {
-        "instruction": "Convert 1000 grams to kilograms.",
-        "input": "",
-        "output": "1000 grams is equal to 1 kilogram.",
-        "model_response": "1000 grams is 1000 kilograms."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Malaysia turtle nesting sites at risk -scientists KIJAL, Malaysia, Aug 18 (Reuters) - Malaysia, once a major breeding ground, is in danger of losing its ocean-roaming leatherback turtles as humans eat their eggs, trap them in fishing nets and encroach on nesting sites, scientists said on ...",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "###\n\nMedia contact:\n\nKijal K. Kijal, Ph.D., (08",
+        "model_ft_medio_response": "Ciência/Tecnologia"
     },
     {
-        "instruction": "What is the opposite of 'deep'?",
-        "input": "",
-        "output": "The opposite of 'deep' is 'shallow'.",
-        "model_response": "The opposite of 'deep' is 'light'."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Oil closes above \\$50 for first time NEW YORK - Oil prices closed above \\$50 a barrel for the first time in New York trading Friday, as traders fretted about Nigerian oil production amid a threatened rebel uprising.",
+        "output": "Negócios",
+        "model_base_response": "The price of Brent crude oil, the benchmark for the U.S. dollar, closed at $50.50 a barrel",
+        "model_ft_medio_response": "Negócios"
     },
     {
-        "instruction": "Categorize the given list of animals.",
-        "input": "Shark, Dolphin, Trout",
-        "output": "Fish: Shark, Trout\nMammals: Dolphin",
-        "model_response": "Animals: Shark, Dolphin, Trout"
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Construction Spending Hits All-Time High WASHINGTON - Construction spending surged in August to the highest level on record, while manufacturing grew at a slower pace in September, offering mixed signals about the economy's strength.    The Commerce Department reported Friday that the value of buildings put in place clocked in at a seasonally adjusted annual rate of \\$1.02 trillion, a record high...",
+        "output": "Mundo",
+        "model_base_response": "### Instrução:\n\nUma instrução de comunidades de comunid",
+        "model_ft_medio_response": "Negócios"
     },
     {
-        "instruction": "Translate 'library' into Spanish.",
-        "input": "",
-        "output": "The Spanish word for 'library' is 'biblioteca'.",
-        "model_response": "The Spanish translation of 'library' is 'libraries'."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Sears Shares Soar as Vornado Boosts Stake  NEW YORK (Reuters) - Sears, Roebuck   Co. &lt;A HREF=\"http://www.investor.reuters.com/FullQuote.aspx?ticker=S.N target=/stocks/quickinfo/fullquote\"&gt;S.N&lt;/A&gt; shares  jumped as much as 25 percent on Friday after real estate  company Vornado Realty Trust &lt;A HREF=\"http://www.investor.reuters.com/FullQuote.aspx?ticker=VNO.N target=/stocks/quickinfo/fullquote\"&gt;VNO.N&lt;/A&gt; said it raised its stake  in the retailer, a step that could lead Sears convert some of  its real estate assets into cash.",
+        "output": "Negócios",
+        "model_base_response": "Sears shares rose as much as 25 percent on Friday after real estate company Vornado Realty Trust &",
+        "model_ft_medio_response": "Negócios"
     },
     {
-        "instruction": "Define the term 'hyperbole'.",
-        "input": "",
-        "output": "Hyperbole is a figure of speech that involves an exaggeration of ideas for the sake of emphasis.",
-        "model_response": "Hyperbole is a word used to describe a statement that is exaggerated or exaggerated in meaning."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Australian boosts bomb manhunt  Australia pledges US\\$3.5m to help police catch those behind the bombing of its embassy in Indonesia. ",
+        "output": "Mundo",
+        "model_base_response": "### Entrada:\n\nBrazilian police arrest two suspected terrorists in the attack on the Brazilian embassy in Jakarta",
+        "model_ft_medio_response": "Mundo"
     },
     {
-        "instruction": "Translate 'Hello' into Russian.",
-        "input": "",
-        "output": "\u041f\u0440\u0438\u0432\u0435\u0442 (Privet)",
-        "model_response": "The Russian word for 'hello' is 'bok' or 'bok'e."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "McLeish hails duo at heart of Gers #39; derby resurgence RANGERS manager Alex McLeish has hailed Alex Rae and Dado Prso as the pillars of strength who have helped turn around the clubs derby-day fortunes.",
+        "output": "Esportes",
+        "model_base_response": "### Deze será a ou a ou a ou a ou a ou a ou",
+        "model_ft_medio_response": "Esportes"
     },
     {
-        "instruction": "Define the term 'kinetic energy'.",
-        "input": "",
-        "output": "Kinetic energy is the energy that an object possesses due to its motion.",
-        "model_response": "Kinetic energy is the force that can be applied to an object or person to produce an effect that is either immediate or lasting."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Spotlight falls on consultants CRUSADING New York Attorney General Eliot Spitzer is turning his attention to pension consultants as part of his attack on the insurance industry.",
+        "output": "Negócios",
+        "model_base_response": "Spitzer's office is investigating the practices of the consulting firm of Cravath, Swaine & Moore, which has been",
+        "model_ft_medio_response": "Negócios"
     },
     {
-        "instruction": "What is the opposite of 'hot'?",
-        "input": "",
-        "output": "The opposite of 'hot' is 'cold'.",
-        "model_response": "The opposite of 'hot' is 'cold'."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Freedom at Last for Pakistanis Who Aided Taliban  PUL-I-CHARKI, Afghanistan (Reuters) - Hundreds of  Pakistanis who fought alongside the Taliban against U.S-led  forces after the Sept. 11, 2001, attacks on the United States  were released from an Afghan jail Sunday after nearly three  years as prisoners of war.",
+        "output": "Mundo",
+        "model_base_response": "The release of the prisoners, who were released from a prison in the southern province of Kandahar, came as the",
+        "model_ft_medio_response": "Mundo"
     },
     {
-        "instruction": "Convert 5 miles to kilometers.",
-        "input": "",
-        "output": "5 miles is approximately 8.05 kilometers.",
-        "model_response": "5 miles is 5000 meters."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Spam  #39;under control #39; in two years: Gates SPAM could become a thing of the past in around two years #39; time, Microsoft chairman Bill Gates said on a visit to Madrid.  quot;Spam is a major security problem, quot; Mr Gates said, noting that progress had been made in the fight against unsolicited mail.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###",
+        "model_ft_medio_response": "Ciência/Tecnologia"
     },
     {
-        "instruction": "What is the chemical formula for magnesium sulfate?",
-        "input": "",
-        "output": "The chemical formula for magnesium sulfate is MgSO4.",
-        "model_response": "The chemical formula for magnesium sulfate is MgSO4."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Mickelson goes back to Augusta to tune up Phil Mickelson is finishing off a record season for himself this week at The Tour Championship, but mentally he #39;s been through for a while.",
+        "output": "Esportes",
+        "model_base_response": "He's been in the middle of a lot of ups and downs, but he's still got a lot of work to do",
+        "model_ft_medio_response": "Esportes"
     },
     {
-        "instruction": "Rewrite the following sentence to replace any clich\u00e9 phrases.",
-        "input": "It's a piece of cake",
-        "output": "It's very easy.",
-        "model_response": "It's a piece of cake."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Europe Rejects Iran's Demand to Use Uranium Equipment Iran is demanding the right to operate uranium enrichment equipment, despite its agreement with the Europeans.",
+        "output": "Mundo",
+        "model_base_response": "### Enquência:\n\nEnquência de uma instrução de u",
+        "model_ft_medio_response": "Mundo"
     },
     {
-        "instruction": "List five different types of vegetables.",
-        "input": "",
-        "output": "1. Carrot\n2. Broccoli\n3. Cucumber\n4. Tomato\n5. Spinach",
-        "model_response": "1. Broccoli\n2. Spinach\n3. Broccoli Rabe\n4. Spinach Rabe\n5. Spinach Rabe"
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "A tall order awaits Williams but his dream is within reach If Danny Williams did not fully appreciate the sheer size of Vitali Klitschko, he does now. After a series of eyeball-to-eyeball poses for the photographers at yesterday #39;s London press conference to announce ",
+        "output": "Esportes",
+        "model_base_response": "his new contract with WBA, the Ukrainian's dream is now within reach.\nThe WBA heavyweight champion has been",
+        "model_ft_medio_response": "Esportes"
     },
     {
-        "instruction": "Convert 7 kilometers to meters.",
-        "input": "",
-        "output": "7 kilometers is 7000 meters.",
-        "model_response": "7 kilometers is 3000 meters."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "BBC set for major shake-up, claims newspaper London - The British Broadcasting Corporation, the world #39;s biggest public broadcaster, is to cut almost a quarter of its 28 000-strong workforce, in the biggest shake-up in its 82-year history, The Times newspaper in London said on Monday.",
+        "output": "Negócios",
+        "model_base_response": "### Dezeen:\n\nThe BBC is to cut almost a quarter of its 28 000-strong workforce,",
+        "model_ft_medio_response": "Mundo"
     },
     {
-        "instruction": "What is the opposite of 'heavy'?",
-        "input": "",
-        "output": "The opposite of 'heavy' is 'light'.",
-        "model_response": "The opposite of 'heavy' is 'light'."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Olympics: Soldier Shot Dead, Policeman Held A Greek soldier guarding an Olympic facility in Athens was shot dead Monday after apparently playing game of Russian roulette with a policeman, security sources said.",
+        "output": "Esportes",
+        "model_base_response": "### Dezepto:\n\nOlympics: Soldier Shot Dead, Policeman Held A Greek soldier guarding",
+        "model_ft_medio_response": "Mundo"
     },
     {
-        "instruction": "What is the past tense of 'sing'?",
-        "input": "",
-        "output": "The past tense of 'sing' is 'sang.'",
-        "model_response": "The past tense of 'sing' is 'sang.'"
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Sun, Kodak Look to Future Following Patent Suit Settlement In lieu of facing a court judgment of possibly more than US\\$1 billion, Sun Microsystems has agreed to pay \\$92 million to settle a long-running patent infringement case with Eastman Kodak.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "The settlement, which was announced today, resolves a lawsuit filed by Kodak in the U.S. District Court for the",
+        "model_ft_medio_response": "Ciência/Tecnologia"
     },
     {
-        "instruction": "What is the molecular formula for carbon dioxide?",
-        "input": "",
-        "output": "The molecular formula for carbon dioxide is CO2.",
-        "model_response": "The molecular formula for carbon dioxide is CO2."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Players #39; offer likely to be rejected Bob Goodenow, executive director of the NHL Players Association, created a lot of suspense when he submitted a dramatic contract proposal to the league last week.",
+        "output": "Esportes",
+        "model_base_response": "The proposal, which was submitted to the league's executive committee, would have allowed the NHL to negotiate a new collective bargaining agreement",
+        "model_ft_medio_response": "Esportes"
     },
     {
-        "instruction": "Convert this sentence to passive voice",
-        "input": "The gardener watered the plants.",
-        "output": "The plants were watered by the gardener.",
-        "model_response": "The plants were watered by the gardener."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Alitalia Tells Unions of Plan to Lay Off 5,000 Workers Alitalia, the Italian government-run airline and a partner with Delta and Air France in the SkyTeam alliance, told its unions on Monday that it planned to lay off about 5,000 ",
+        "output": "Negócios",
+        "model_base_response": "airline workers in the coming months. The announcement comes as the government is facing a labor crisis and is trying to cut",
+        "model_ft_medio_response": "Negócios"
     },
     {
-        "instruction": "What is the past tense of 'throw'?",
-        "input": "",
-        "output": "The past tense of 'throw' is 'threw'.",
-        "model_response": "The past tense of 'throw' is 'threw'."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Dell touts in-home services Dell offers to install its PCs, televisions and networks, and provide extra phone support for stopping viruses and spyware.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "### Dell:\n\nDell e-mail: dell@dell.com\n\nDell Web",
+        "model_ft_medio_response": "Ciência/Tecnologia"
     },
     {
-        "instruction": "Explain what a sonnet is.",
-        "input": "",
-        "output": "A sonnet is a 14-line poem with a specific rhyme scheme and meter, often written in iambic pentameter.",
-        "model_response": "A sonnet is a poem composed of three stanzas."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Activists Worry Election Reform May Wane (AP) AP - Sure, there were hours-long lines, temperamental electronic machines and some old-fashioned misplaced ballots, but America's democracy worked well enough on Nov. 2 to elect a president.",
+        "output": "Mundo",
+        "model_base_response": "The election was marred by a series of technical glitches, including a glitch that allowed voters to cast ballots in the",
+        "model_ft_medio_response": "Mundo"
     },
     {
-        "instruction": "Generate a sentence using the word 'innovative'.",
-        "input": "",
-        "output": "The company is known for its innovative products.",
-        "model_response": "He is very innovative and always tries new things."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Cisco Revamps Catalyst Switch Range To extend 10GbE support to the network edge, the revamped 6500 Supervisor Engine 32 ships with a choice of two 10GbE XENPAK-based or eight one GbE Small Form Factor Pluggable based uplinks.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "The switch range is now available in two different types of uplinks: 10GbE XENPAK-based and 8",
+        "model_ft_medio_response": "Ciência/Tecnologia"
     },
     {
-        "instruction": "Provide the plural form of 'cactus'.",
-        "input": "",
-        "output": "The plural form of 'cactus' is 'cacti'.",
-        "model_response": "The plural form of 'cactus' is 'cacti'."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Australian rowers row reaches a new low RELATIONS within the Australian womens eight rowing crew have hit a new low with Olympian Catriona Oliver slapping much-publicised team-mate Sally Robbins in front of onlookers at anofficial function on Wednesday night.",
+        "output": "Esportes",
+        "model_base_response": "The rowers, who are part of the Australian women's eight row team, were in the middle of a training",
+        "model_ft_medio_response": "Esportes"
     },
     {
-        "instruction": "Translate the phrase 'Where is the bathroom?' into German.",
-        "input": "",
-        "output": "The German translation of 'Where is the bathroom?' is 'Wo ist die Toilette?'",
-        "model_response": "The German translation of 'Where is the bathroom?' is 'Where is the bathroom?'"
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Google Co-Founders to Sell Company Shares Google Inc. co-founders Larry Page and Sergey Brin each plan to sell up to 7.2 million shares of their stock in the online search engine leader during the next 18 months ",
+        "output": "Negócios",
+        "model_base_response": "Â, according to a person familiar with the matter.\n\nThe sale, which is expected to be completed by the end",
+        "model_ft_medio_response": "Negócios"
     },
     {
-        "instruction": "Generate a past-tense verb that describes a person laughing.",
-        "input": "",
-        "output": "Laughed.",
-        "model_response": "The past-tense verb that describes a person laughing is 'laughed.'"
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Analysts await update on Marsh probe SAN FRANCISCO (CBS.MW) -- When Marsh  amp; McLennan reports third-quarter results next week, few analysts will be looking at the numbers.",
+        "output": "Negócios",
+        "model_base_response": "But the company's latest quarterly results are expected to be a big boost to the stock.\n\nThe company's latest quarterly",
+        "model_ft_medio_response": "Negócios"
     },
     {
-        "instruction": "Generate a sentence using the word 'transient.'",
-        "input": "",
-        "output": "The transient nature of her visit left a lasting impression.",
-        "model_response": "He is very quick at making new friends."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Kenyan to collect Nobel prize Kenyan environmentalist Wangari Maathai is to be presented with the Nobel Peace Prize for 2004 at a ceremony in Oslo. Professor Maathai, also Kenya #39;s deputy environment minister, is the first African woman ",
+        "output": "Mundo",
+        "model_base_response": "to win the prize.\n### The Nobel Prize:\nThe Nobel Peace Prize is awarded to a person or persons who",
+        "model_ft_medio_response": "Mundo"
     },
     {
-        "instruction": "Generate a sentence using the word 'optimistic'.",
-        "input": "",
-        "output": "He remained optimistic despite the challenges he faced.",
-        "model_response": "She is very optimistic and always strives for success."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Google Shares Jump 18 In NASDAQ Debut Google Shares Jump 18 In NASDAQ Debut\\\\Google stock shares rose 18 percent in their NASDAQ stock market debut yesterday, after a scaled-down \\$1.67 billion IPO marked by missteps and lackluster market conditions. Google co-founder Larry Page and chief executive Eric Schmidt showed up at the Nasdaq stock market as Google ...",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "### Debut:\n\nGoogle shares rose 18 percent in their NASDAQ stock market debut yesterday, after a scaled",
+        "model_ft_medio_response": "Negócios"
     },
     {
-        "instruction": "Re-word this sentence using an indirect question.",
-        "input": "What time is the meeting?",
-        "output": "Could you tell me what time the meeting is?",
-        "model_response": "The meeting is at 7:30."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "MLB Notebook: Johnson trade still in the works The New York Yankees, Arizona and Los Angeles spent yesterday trying to put the finishing touches on the megadeal that would move All-Stars Randy Johnson, Shawn Green and Javier Vazquez.",
+        "output": "Esportes",
+        "model_base_response": "The Yankees, who have been trying to get Johnson to sign a new contract, are still in the process of trying to final",
+        "model_ft_medio_response": "Esportes"
     },
     {
-        "instruction": "Categorize the following sentence as a statement, a question, or an exclamation.",
-        "input": "What a beautiful day!",
-        "output": "Exclamation.",
-        "model_response": "The statement \"What a beautiful day!\" can be classified as an exclamation."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Graham finally admits he #39;s coach who turned in THG syringe A mystery at the center of track and field #39;s biggest doping scandal has finally been solved. Top track coach Trevor Graham has admitted he was the coach who anonymously sent a syringe of THG to the US Anti ",
+        "output": "Esportes",
+        "model_base_response": "dice team. The syringe was found in Graham's locker at the US Anti-Doping Agency's headquarters",
+        "model_ft_medio_response": "Esportes"
     },
     {
-        "instruction": "What is the opposite of 'rich'?",
-        "input": "",
-        "output": "The opposite of 'rich' is 'poor'.",
-        "model_response": "The opposite of 'rich' is 'poor'."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "IBM offers companies monthly security report OCTOBER 25, 2004 (IDG NEWS SERVICE) - IBM today introduced a security service that offers a concise, monthly global-network threat report designed to help organizations assess security needs and vulnerabilities from a business perspective.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "The IBM Security Report is available for download at www.ibm.com/security.\n\n### IBM Security Report:",
+        "model_ft_medio_response": "Ciência/Tecnologia"
     },
     {
-        "instruction": "Find a synonym for the given verb.",
-        "input": "Begin",
-        "output": "Commence",
-        "model_response": "Begin."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Team buses to have police protection after incident There will be police escorts and protection for the Chicago White Sox team buses during their series against the Royals. Kevin Hallinan, Major League Baseball #39;s vice ",
+        "output": "Esportes",
+        "model_base_response": "president of communications, said: \"We are aware of the incident and are working with the Chicago Police Department to determine the",
+        "model_ft_medio_response": "Esportes"
     },
     {
-        "instruction": "Edit the given text to ensure all plural nouns are spelled correctly.",
-        "input": "The birds sings beautiful songs.",
-        "output": "The birds sing beautiful songs.",
-        "model_response": "The birds sings beautiful songs."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Arrington out 2-4 weeks Pro Bowl linebacker LaVar Arrington underwent arthroscopic surgery in his right knee for a lateral meniscus tear yesterday and will probably be out 2-4 weeks, leaving the Washington Redskins, the league's top-ranked defense, without one of its most dangerous players.",
+        "output": "Esportes",
+        "model_base_response": "### Dezepto:\n\nAgua a está em ou ou ou ou",
+        "model_ft_medio_response": "Esportes"
     },
     {
-        "instruction": "Transform the following sentence into a question using \"could.\"",
-        "input": "You can help me tomorrow.",
-        "output": "Could you help me tomorrow?",
-        "model_response": "Could you help me tomorrow?"
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Japanese Bonds Fall as US Sales Figures Damp Export Concern Japanese 10-year bonds fell after the US government said retail sales rose more than expected last month, damping concern demand for Japan #39;s goods will slow.",
+        "output": "Negócios",
+        "model_base_response": "### Esta instrução:\n\nClassifique o texto da notícia abaix",
+        "model_ft_medio_response": "Negócios"
     },
     {
-        "instruction": "Classify the following items: bicycle, rose, tiger.",
-        "input": "",
-        "output": "Vehicles: Bicycle\nPlants: Rose\nAnimals: Tiger",
-        "model_response": "Rose: Tiger\nBicycle: Bicycle"
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Shanghai Race: Barrichello stars Using a three-stop strategy, Ferraris Brazilian number two won the Chinese Grand Prix while Fernando Alonso finished fourth.",
+        "output": "Esportes",
+        "model_base_response": "### Está em português:\n\nFerrari Brazilian number two: Barrichello stars",
+        "model_ft_medio_response": "Esportes"
     },
     {
-        "instruction": "Define the term 'irony'.",
-        "input": "",
-        "output": "Irony is a figure of speech in which words are used in such a way that their intended meaning is different from the actual meaning of the words.",
-        "model_response": "The term 'irony' is a synonym for 'fear'."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Back to front switches blamed for space probe crash It shouldn #39;t happen to a scientist: investigators have found that the \\$250m (139m) Genesis space probe, which crash-landed in the Utah desert last month, failed because the switches designed to trigger its parachute were installed backwards.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "The probe was carrying a payload of about 1,000kg, but the switches were installed backwards, causing the probe to crash",
+        "model_ft_medio_response": "Ciência/Tecnologia"
     },
     {
-        "instruction": "Translate 'Welcome' into German.",
-        "input": "",
-        "output": "The German translation of 'Welcome' is 'Willkommen'.",
-        "model_response": "The German translation of 'Welcome' is 'Bewegung'."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "IBM launches Websphere 6 IBM today announced that Websphere 6, the long awaited-update to its application server software, will be available by the end of the year.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "The new version of IBM's Websphere software will be available for download from IBM's website. The new version of IBM",
+        "model_ft_medio_response": "Ciência/Tecnologia"
     },
     {
-        "instruction": "Explain the primary function of the human heart.",
-        "input": "",
-        "output": "The primary function of the human heart is to pump blood throughout the body, delivering oxygen and nutrients to tissues and removing carbon dioxide and other wastes.",
-        "model_response": "The primary function of the human heart is to pump blood to the brain and to supply oxygen to the body."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "US Middle East reform initiative to hold first session in Morocco (AFP) AFP - A Washington-inspired project for Middle East reform will begin in Morocco next month by looking at ways of improving cooperation and strengthening political and economic reform, the foreign ministry said.",
+        "output": "Mundo",
+        "model_base_response": "### Media:\n\nMunich: \"The Middle East is a region of great potential for the world.",
+        "model_ft_medio_response": "Mundo"
     },
     {
-        "instruction": "Reword the following sentence to the future tense.",
-        "input": "He is reading a novel inspired by his grandmother.",
-        "output": "He will be reading a novel inspired by his grandmother.",
-        "model_response": "He is reading a novel inspired by his grandmother."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "LVMH First-Half Profit Advances 49 on Airport Stores (Update1) LVMH Moet Hennessy Louis Vuitton SA, the world #39;s largest luxury-goods maker, said first-half profit rose 49 percent as travelers returned to its Asian airport stores and US shoppers bought more champagne and cognac.",
+        "output": "Negócios",
+        "model_base_response": "### Entrada:\n\nLVMH First-Half Profit Advances 49 on Airport Stores (Update2",
+        "model_ft_medio_response": "Negócios"
     },
     {
-        "instruction": "Convert the given sentence into active voice.",
-        "input": "The law was passed by the government.",
-        "output": "The government passed the law.",
-        "model_response": "The law was passed by the government."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Site Bars Black Box Voting Head A politically progressive website at the forefront of discussions about electronic-voting machines and election irregularities is barring Black Box Voting founder Bev Harris from posting to its site. By Joanna Glasner.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "### Site Bar:\n\nThe site's Black Box Voting head is a politically progressive website at the forefront of discussions",
+        "model_ft_medio_response": "Ciência/Tecnologia"
     },
     {
-        "instruction": "Create a sentence using the word 'inevitable'.",
-        "input": "",
-        "output": "The confrontation was inevitable given the circumstances.",
-        "model_response": "The decision to go to war was inevitable."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Hurricane Ivan Heads to Cuba GEORGE TOWN, Cayman Islands - Hurricane Ivan pummeled the Cayman Islands with fierce winds that ripped off roofs and floodwaters that swamped homes, then strengthened to an extremely dangerous Category 5 storm as it headed for western Cuba on Monday.    The hurricane, one of the strongest on record to hit the region, has killed at least 65 people across the Caribbean and threatens millions more people in its projected path...",
+        "output": "Mundo",
+        "model_base_response": "Hurricane Ivan heads to Cuba GEORGE TOWN, Cayman Islands - Hurricane Ivan pummeled the Cayman",
+        "model_ft_medio_response": "Mundo"
     },
     {
-        "instruction": "Categorize the following sentence as either factual or opinion-based.",
-        "input": "Chocolate is the best dessert.",
-        "output": "Opinion-based.",
-        "model_response": "The chocolate is the best dessert."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Angels doing devil of a job ANAHEIM, California -- The Anaheim Angels are keeping it close in the AL West. Garret Anderson hit a tie-breaking double in the eighth inning, Darin Erstad had a three-run homer and the Angels beat Oakland ",
+        "output": "Esportes",
+        "model_base_response": "ÃƒÆ'Ã†'Â¢ÃƒÆ'Â¢ÃƒÆ'",
+        "model_ft_medio_response": "Esportes"
     },
     {
-        "instruction": "What is an antonym of 'old'?",
-        "input": "",
-        "output": "young.",
-        "model_response": "An antonym of 'old' is 'young'."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Ex-HP exec joins StreamServe board Peter Blackmore, who lost his job at Hewlett-Packard in August, is now a director of the board for the Swedish software company.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "### Entrada:\n\nThe Brazilian government has approved a law that would allow the government to seize the assets",
+        "model_ft_medio_response": "Ciência/Tecnologia"
     },
     {
-        "instruction": "Provide a synonym for 'hardworking'.",
-        "input": "",
-        "output": "A synonym for 'hardworking' is 'diligent'.",
-        "model_response": "A synonym for 'hardworking' is 'hardworking'."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Internet Explorer loses browser market share to young pretender Open Source browsers are continuing to eat into the market share of Microsoft #39;s Internet Explorer. According to market analysts WebSideStory, Internet Explorer held 92.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "5% of the browser market share in the first quarter of 2014, while Google's Chrome held the remaining 2.5%.",
+        "model_ft_medio_response": "5 percent market share in the first quarter of 2005.\n\n\nCiência/"
     },
     {
-        "instruction": "What is the boiling point of sulfur in Celsius?",
-        "input": "",
-        "output": "The boiling point of sulfur is 444.6 degrees Celsius.",
-        "model_response": "The boiling point of sulfur is -114.5 degrees Celsius."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Citigroup faces regulatory probe The UK's Financial Services Authority launches a formal investigation into Citigroup's \"unusual trading activity\".",
+        "output": "Negócios",
+        "model_base_response": "### Instrução:\n\nCitigroup faces regulatory probe The UK's Financial Services Authority launches a formal",
+        "model_ft_medio_response": "Negócios"
     },
     {
-        "instruction": "What is the plural form of 'child'?",
-        "input": "",
-        "output": "The plural form of 'child' is 'children'.",
-        "model_response": "The plural form of 'child' is 'child'."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Afghan leader starts a race by dismissing key governor KABUL -- President Hamid Karzai chose the third anniversary yesterday of the Sept. 11 attacks on the United States to launch his election manifesto and to effectively dismiss a powerful governor, hours after pledging to rein in regional clan leaders.",
+        "output": "Mundo",
+        "model_base_response": "### Entrada:\n\nA man in a wheelchair is seen in a video being wheeled into a hospital",
+        "model_ft_medio_response": "Mundo"
     },
     {
-        "instruction": "What is an antonym of 'complicated'?",
-        "input": "",
-        "output": "An antonym of 'complicated' is 'simple'.",
-        "model_response": "An antonym of 'complicated' is 'simplified'."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "LeFors, Cardinals put Tulane in sorry state NEW ORLEANS -- Stefan LeFors returned to his home state for the final time as a collegian and led Louisville to a record-setting performance.",
+        "output": "Esportes",
+        "model_base_response": "LeFors, who was named the Big East's Coach of the Year, led the Cardinals to a 31-14 victory",
+        "model_ft_medio_response": "Esportes"
     },
     {
-        "instruction": "Name three forms of water.",
-        "input": "",
-        "output": "The three forms of water are solid (ice), liquid (water), and gas (steam).",
-        "model_response": "Three forms of water are rain, snow, and water."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Soyuz Capsule Lands on Kazakhstan Steppe A Russian-US crew returned to Earth from the international space station Sunday in a pinpoint landing on the Kazakhstan steppe, and NASA #39;s chief said the United States ",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "has the best chance of returning to the moon.\n###\n\nThe Soyuz capsule carrying the crew of Russian cos",
+        "model_ft_medio_response": "Mundo"
     },
     {
-        "instruction": "Rewrite this sentence as a question.",
-        "input": "The dog chased the cat.",
-        "output": "Did the dog chase the cat?",
-        "model_response": "The dog chased the cat."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Sherwin-Williams #39; Duron acquisition clears FTC Paint giant Sherwin-Williams is one step closer to completing its \\$253 million acquisition of Beltsville-based Duron. The Federal Trade Commission has terminated its review of the proposed merger and will not contest it.",
+        "output": "Negócios",
+        "model_base_response": "The FTC's decision is effective immediately.\n\n### De Facto:\n\nDuron acquires Beltsville-",
+        "model_ft_medio_response": "Negócios"
     },
     {
-        "instruction": "Split the following sentence into two declarative sentences: 'The movie was long but interesting.'",
-        "input": "",
-        "output": "The movie was long. It was interesting.",
-        "model_response": "and 'The movie was interesting.'\n\n\nThe movie was long and interesting."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Big Dig leaks water and cash Massachusetts no longer has to worry about the Curse of the Bambino plaguing the Red Sox, but the Curse of the Big Dig, that never-ending Boston highway project, is still much alive.",
+        "output": "Negócios",
+        "model_base_response": "### Entrada:\n\nThe Big Dig is a big deal for the Boston Red Sox.\n\n###",
+        "model_ft_medio_response": "Esportes"
     },
     {
-        "instruction": "Classify the following substances as acid, base, or neutral.",
-        "input": "Lemon juice, Soap, Water",
-        "output": "Acid: Lemon juice\nBase: Soap\nNeutral: Water",
-        "model_response": "Acid: Soap\nBase: Soap"
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Palestinians to see Arafat despite wife #39;s fury Palestinian leaders headed to Paris on Monday to see critically ill President Yasser Arafat at a French military hospital despite a scathing attack by his wife who accused them of plotting to  quot;bury him alive.",
+        "output": "Mundo",
+        "model_base_response": "### Enseguir:\n\nArafat's wife, Yasser Arafat, has accused the Palestinian",
+        "model_ft_medio_response": "Mundo"
     },
     {
-        "instruction": "What is a synonym of 'sad'?",
-        "input": "",
-        "output": "A synonym for 'sad' is 'unhappy'.",
-        "model_response": "A synonym for 'sad' is 'determined'."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "WebEx Mixes Meetings With Sales Force Automation WebEx Communications is one of the pioneers of real-time collaboration applications. In fact, to many companies the name WebEx is synonymous with online meetings.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "WebEx is a real-time collaboration platform that allows you to create and manage meetings in real-time. WebEx is",
+        "model_ft_medio_response": "Ciência/Tecnologia"
     },
     {
-        "instruction": "Correct any spelling mistakes in the given sentence.",
-        "input": "I prefer homemade cookies to store boaght.",
-        "output": "I prefer homemade cookies to store bought.",
-        "model_response": "I prefer homemade cookies to store boaght."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Tsunami Group Will Expand Its Network Officials in charge of the existing international tsunami warning system, have taken an initial step to broaden the network to the Indian Ocean and other possible trouble spots.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "### Esta não em português de um não seu português de um n",
+        "model_ft_medio_response": "Negócios"
     },
     {
-        "instruction": "Generate a sentence using the word 'transient'.",
-        "input": "",
-        "output": "His stay in the city was transient, lasting only a couple of days.",
-        "model_response": "He is very quick at making new friends."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Warsaw official vowstroop cuts in Iraq POLAND WASHINGTON -- The prime minister of Poland told his Parliament yesterday that he would begin reducing the number of Polish troops in Iraq in January, another blow to the US-led coalition that has lost nearly a third of its members this year. Addressing legislators before a vote of confidence, Prime Minister Marek Belka promised, ''We will not remain in ...",
+        "output": "Mundo",
+        "model_base_response": "Iraq for long.'' He said that the Polish military would be withdrawn from Iraq by the end of January, and that the Polish",
+        "model_ft_medio_response": "Mundo"
     },
     {
-        "instruction": "Translate 'I am lost' into Italian.",
-        "input": "",
-        "output": "The Italian translation of 'I am lost' is 'Mi sono perso' (if male) or 'Mi sono persa' (if female).",
-        "model_response": "The Italian translation of 'I am lost' is 'I' ampresto'."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Florida likely to get hit again The seemingly nonstop pummeling of Florida during the past month has been the result of a highly active hurricane season mixed with two unusually stubborn high-pressure ridges funneling the storms in a track directly over Florida.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "The state's weather service has issued a series of warnings for the next several days, and the National Hurricane Center has issued a",
+        "model_ft_medio_response": "Negócios"
     },
     {
-        "instruction": "Classify this text as a technical document or a narrative.",
-        "input": "This manual provides instructions for installing the software.",
-        "output": "Technical document",
-        "model_response": "This text is a technical document."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Syria on offensive as Israel threatens to avenge bombings Israel #39;s threats against Syria after the Beersheba suicide bombings would  quot;exacerbate the deteriorating situation in the region, quot; the Syrian foreign minister said yesterday.",
+        "output": "Mundo",
+        "model_base_response": "### Dezeen:\n\nIsrael's Foreign Minister Avigdor Lieberman said yesterday that Israel would retaliate against Syria",
+        "model_ft_medio_response": "Mundo"
     },
     {
-        "instruction": "Sort the following list in descending order.",
-        "input": "10, 2, 25, 16, 7",
-        "output": "25, 16, 10, 7, 2.",
-        "model_response": "The list of 25 is in descending order."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "In Our View: Sanctions not enough for Sudan While most of the country #39;s attention has been focused on Iraq, a human-rights crisis has been unfolding in north Africa. In Darfur, Sudan, more than 50,000 people have been killed and 1.2 million displaced ",
+        "output": "Mundo",
+        "model_base_response": "since the start of the conflict in March 2011. The UN estimates that more than half of the country's population is now",
+        "model_ft_medio_response": "Mundo"
     },
     {
-        "instruction": "Translate 'Can I have some water?' into French.",
-        "input": "",
-        "output": "Puis-je avoir de l'eau?",
-        "model_response": "The French translation of 'Can I have some water?' is 'Can\u00e7ant-il-dessous-d'"
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Cards strike first: Overpower Astros in Game 1 victory Conventional wisdom said that when the Cardinals and Astros hooked up in the National League Championship Series, there might be a few runs scored.",
+        "output": "Esportes",
+        "model_base_response": "But the Astros were able to score a run in Game 1 of the World Series.\n\n### Conclução",
+        "model_ft_medio_response": "Esportes"
     },
     {
-        "instruction": "Create a simile with the word 'as cold as'.",
-        "input": "",
-        "output": "Her hands were as cold as ice.",
-        "model_response": "The simile is as cold as ice."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Enter your e-mail: Archos has turned up the heat in the portable entertainment arena by announcing the 20GB Gmini400, a \\$400 digital audio player with a 2.2-inch color LCD screen for watching videos and viewing photographs.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "The Gmini400 is available in two models: the Gmini400-A and Gmini400-B. The G",
+        "model_ft_medio_response": "Ciência/Tecnologia"
     },
     {
-        "instruction": "Classify the following words by their grammatical categories: swim, beautiful, quickly",
-        "input": "",
-        "output": "Swim: Verb\nBeautiful: Adjective\nQuickly: Adverb",
-        "model_response": "Swim: Verb\nBeautiful: Adjective\nQuickly: Adverb"
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "NBA Rundown - Coach stands up for player There aren #39;t many NBA coaches who would publicly side with a player, as opposed to management, in a contract dispute. But then, there aren #39;t many coaches like San Antonio #39;s Gregg Popovich, who has the luxury ",
+        "output": "Esportes",
+        "model_base_response": "ÃƒÆ'Ã†'Â¢ÃƒÆ'Â¢ÃƒÆ'",
+        "model_ft_medio_response": "Esportes"
     },
     {
-        "instruction": "Calculate the density of an object with a mass of 15 grams and a volume of 5 cubic centimeters.",
-        "input": "",
-        "output": "The density of the object is 3 grams per cubic centimeter.",
-        "model_response": "The density of the object is 15 grams/cc."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Toomer, O #39;Hara still questionable for Giants New York Giants receiver Amani Toomer returned to practice Friday and participated in some individual drills, but his status for Sunday #39;s game against the Minnesota Vikings is still undecided.",
+        "output": "Esportes",
+        "model_base_response": "###\n\n###",
+        "model_ft_medio_response": "Esportes"
     },
     {
-        "instruction": "What is the abbreviation for 'Master of Business Administration'?",
-        "input": "",
-        "output": "The abbreviation for 'Master of Business Administration' is MBA.",
-        "model_response": "The abbreviation for 'Master of Business Administration' is MBA."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Season over for Seattle #39;s Jacobsen Seattle, WA (Sports Network) - The Seattle Mariners announced prior to Wednesday #39;s game against Cleveland that first baseman/designated hitter Bucky Jacobsen will undergo surgery next week, ending the rookie #39;s 2004 campaign.",
+        "output": "Esportes",
+        "model_base_response": "###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###",
+        "model_ft_medio_response": "Esportes"
     },
     {
-        "instruction": "Convert the following number from Roman numerals: IX.",
-        "input": "",
-        "output": "The number IX in Roman numerals is 9.",
-        "model_response": "5 to decimal: 5.\n\n\nThe given number is 5."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Senate Expected to Approve Bill Overhauling Intelligence Today As debate in the G.O.P.-controlled Senate opened, the chamber's leaders predicted the bill would easily pass.",
+        "output": "Mundo",
+        "model_base_response": "### Senate:\n\nSenate Majority Leader Mitch McConnell (R-Ky.) said the bill would \"reform\"",
+        "model_ft_medio_response": "Mundo"
     },
     {
-        "instruction": "What is the opposite of 'horizontal'?",
-        "input": "",
-        "output": "The opposite of 'horizontal' is 'vertical'.",
-        "model_response": "The opposite of 'horizontal' is 'vertical'."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Afghanistan takes first difficult steps toward democracy The election for president in Afghanistan may have brought us one small step closer to worldwide democracy. At least the people there left no doubt that they wanted to vote.",
+        "output": "Mundo",
+        "model_base_response": "But the election was marred by violence and corruption. The election was marred by violence and corruption. The election was mar",
+        "model_ft_medio_response": "Mundo"
     },
     {
-        "instruction": "Translate 'Where can I buy tickets?' into Italian.",
-        "input": "",
-        "output": "The Italian translation for 'Where can I buy tickets?' is 'Dove posso comprare i biglietti?'",
-        "model_response": "The Italian translation of 'Where can I buy tickets?' is 'Dove \u00e8 l'o\u00f9 vicino?'."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Groups Meet to Discuss Climate Change (AP) AP - New strategies to confront global warming took center stage in Buenos Aires on Monday, where thousands of environmentalists and government policy-makers gathered for an international conference on climate change.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "The conference, which was organized by the World Wildlife Fund and the World Bank, was attended by more than 1,000 people",
+        "model_ft_medio_response": "Mundo"
     },
     {
-        "instruction": "Rewrite the following sentence to replace any clich\u00e9s.",
-        "input": "He was as cool as a cucumber.",
-        "output": "He remained very calm.",
-        "model_response": "He was as cool as a cucumber."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "European Services Slowed in August Amid Job, Oil Concerns Growth in the European service industries, ranging from banking to telecommunications, slowed in August as households became increasingly concerned about jobs and oil prices reached a record.",
+        "output": "Negócios",
+        "model_base_response": "### Enseguir:\n\nEnseguir de esta instrução de um não",
+        "model_ft_medio_response": "Negócios"
     },
     {
-        "instruction": "Identify the main verb in the sentence.",
-        "input": "The dog barked loudly.",
-        "output": "The main verb in the sentence is 'barked'.",
-        "model_response": "The main verb in the sentence is 'bark.'"
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Wal-Mart Launches Windows Media Song Downloads Wal-Mart Stores Inc. launched an online music store that works with Microsoft Corp. #39;s Windows Media Player, the world #39;s largest retailer said on Thursday.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "### Instrução:\n\nClassifique o texto da notícia abaixo em",
+        "model_ft_medio_response": "Negócios"
     },
     {
-        "instruction": "Generate a sentence using the word 'elucidate'.",
-        "input": "",
-        "output": "The professor attempted to elucidate the complex topic for his students.",
-        "model_response": "He was able to quickly pick up the new task."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Guest Column Addressing Global Imbalances is Within the Realm of &lt;b&gt;...&lt;/b&gt; THE global economy is slowly recovering, and with it hopes for a sustained period of economic growth in all regions. South Africa #39;s economic future is tied to that of the rest of the world and for this reason ",
+        "output": "Negócios",
+        "model_base_response": "e is a key player in the global economy. The global economy is slowly recovering, and with it hopes for a",
+        "model_ft_medio_response": "Negócios"
     },
     {
-        "instruction": "Correct the sentence.",
-        "input": "Me and my friend went to the store.",
-        "output": "My friend and I went to the store.",
-        "model_response": "The correct sentence should be 'We went to the store.'"
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Bolton seek cheap Diouf deal The Liverpool striker is on a season-long loan deal at the Reebok Stadium from Liverpool, yet is currently at the centre of a spitting controversy involving Arjen De Zeeuw.",
+        "output": "Esportes",
+        "model_base_response": "### Deze será ao uma instrução que descreve uma tarefa. Esc",
+        "model_ft_medio_response": "Esportes"
     },
     {
-        "instruction": "What is the formula for calculating work done?",
-        "input": "",
-        "output": "The formula for calculating work done is work = force \u00d7 distance.",
-        "model_response": "The formula for calculating work done is the product of the total number of hours worked and the total number of working days."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Hungary Bans Paprika; National Dish a Health Risk  BUDAPEST (Reuters) - Hungary on Wednesday ordered food  retailers to withdraw all products containing paprika, the  fiery red spice that is an essential ingredient in the  Hungarian national dish, goulash.",
+        "output": "Mundo",
+        "model_base_response": "The ban was imposed after a complaint by the European Union's food safety agency, the European Food Safety Authority, which said the",
+        "model_ft_medio_response": "Mundo"
     },
     {
-        "instruction": "What is the chemical formula for ammonium nitrate?",
-        "input": "",
-        "output": "The chemical formula for ammonium nitrate is NH4NO3.",
-        "model_response": "The chemical formula for ammonium nitrate is HNO3."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Airbus Hopes for 50 Jet Orders by June  PARIS (Reuters) - The president of European planemaker  Airbus said on Saturday he hoped to win around 50 orders for  the new wide-body jet A350 by next June.",
+        "output": "Negócios",
+        "model_base_response": "\"We are in the process of getting the orders in, and we are in the process of getting the orders in",
+        "model_ft_medio_response": "Negócios"
     },
     {
-        "instruction": "What is the molecular formula for water?",
-        "input": "",
-        "output": "The molecular formula for water is H2O.",
-        "model_response": "The molecular formula for water is H2O2."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "New Media Center OS Unveiled Windows XP Media Center Edition 2005 supports DVD burning, HDTV, and improved support for mobile devices.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "### Instrução:\n\nNew Media Center OS Unveiled Windows XP Media Center Edition 2005 supports DVD",
+        "model_ft_medio_response": "Ciência/Tecnologia"
     },
     {
-        "instruction": "Rewrite the given sentence to describe the same thing in a positive way.",
-        "input": "The food was not good.",
-        "output": "The food could use some improvement.",
-        "model_response": "The food was not good."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Injured Gunners captain ruled out of trip to Panathinaikos PARIS: Ankle-victim Patrick Vieira will miss Arsenals Champions League trip to Panathinaikos today in a big blow to manager Arsene Wenger on the run-up to the Athens tie.",
+        "output": "Esportes",
+        "model_base_response": "Vieira, who has been out since the 2-1 defeat to Olympiakos on March 28, is expected to miss",
+        "model_ft_medio_response": "Esportes"
     },
     {
-        "instruction": "What is the opposite of 'lazy'?",
-        "input": "",
-        "output": "The opposite of 'lazy' is 'diligent'.",
-        "model_response": "The opposite of 'lazy' is 'busy'."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Japan Protests Incursion by Nuclear Sub Japan lodged a formal protest with the Chinese government on Friday after determining that an unidentified nuclear submarine that entered its territorial waters this week belonged to China.",
+        "output": "Mundo",
+        "model_base_response": "The Japanese government said it was concerned about the incident, which occurred on Thursday, and that it was considering the possibility",
+        "model_ft_medio_response": "Mundo"
     },
     {
-        "instruction": "Name three essential vitamins for human health.",
-        "input": "",
-        "output": "1. Vitamin A\n2. Vitamin C\n3. Vitamin D",
-        "model_response": "1. Biotin\n2. Vitamin C\n3. Vitamin E"
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Allawi announces nationwide arms buyback scheme Iraqi Prime Minister Iyad Allawi gives a keynote speech on government policy and the challenges facing Iraq before its elections to members of the Iraqi National Assembly in Baghdad, October 18.",
+        "output": "Mundo",
+        "model_base_response": "### Delegativo:\n\nAbrilção de informação de um armas de",
+        "model_ft_medio_response": "Mundo"
     },
     {
-        "instruction": "Define the term 'simile'.",
-        "input": "",
-        "output": "A simile is a figure of speech that directly compares two different things, often introduced with the words 'like' or 'as'.",
-        "model_response": "A simile is a figurative or simile that simulates the action, sentiment, or idea."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Man Pleads Guilty in Tsunami Death E-Mail Case (Reuters) Reuters - A British man admitted Monday to sending\\hoax emails to friends and relatives of people missing since\\the Asian tsunami.",
+        "output": "Mundo",
+        "model_base_response": "### Sentiment:\n\nEste não está uma instrução que descreve uma",
+        "model_ft_medio_response": "Mundo"
     },
     {
-        "instruction": "What is the boiling point of chlorine in Celsius?",
-        "input": "",
-        "output": "The boiling point of chlorine is -34 degrees Celsius.",
-        "model_response": "The boiling point of chlorine is -38.5 degrees Celsius."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Nigerian troops leave for Darfur Nigerian troops left for Sudan #39;s Darfur province on Monday as part of an African Union force mandated for the conflict-torn region, military officials said.",
+        "output": "Mundo",
+        "model_base_response": "### Entrada:\n\nAfrica's largest oil reserves are under threat from a new threat: climate change",
+        "model_ft_medio_response": "Mundo"
     },
     {
-        "instruction": "Translate 'My name is' into French.",
-        "input": "",
-        "output": "The French translation of 'My name is' is 'Je m'appelle'.",
-        "model_response": "The French word for 'My name is' is 'ma\u00eetre'."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Putin Says Belarus Gas Spat Is Over President Vladimir Putin said Monday that Russia and Belarus have put a sharp dispute over natural gas deliveries behind them and that there are no obstacles to good relations.",
+        "output": "Negócios",
+        "model_base_response": "### Dezeen:\n\nRussia's Gazprom Says It Will Not Pay for Gas to Ukraine\n\nRussia",
+        "model_ft_medio_response": "Mundo"
     },
     {
-        "instruction": "Convert 200 centimeters to meters.",
-        "input": "",
-        "output": "200 centimeters is 2 meters.",
-        "model_response": "200 centimeters is 0.2 meters."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "World #39;s oldest man dies at age 113 Fred Hale Sr., believed to have been the oldest man on Earth, has died less than a month before his 114th birthday at a DeWitt, NY, nursing home.",
+        "output": "Esportes",
+        "model_base_response": "He was born on March 7, 1882, in the town of DeWitt, New York. He was the son",
+        "model_ft_medio_response": "Mundo"
     },
     {
-        "instruction": "What is the chemical symbol for zinc?",
-        "input": "",
-        "output": "Zn.",
-        "model_response": "The chemical symbol for zinc is Zn."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Search upstart launches site with sights set on Google Online search engine upstart Vivisimo is setting out to convince the masses that Google #39;s vaunted technology isn #39;t the most efficient way to find things on the Internet.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "### Instrução:\n\nSearch upstart launches site with sights set on Google Online search engine upstart",
+        "model_ft_medio_response": "Ciência/Tecnologia"
     },
     {
-        "instruction": "What is the formula for calculating force?",
-        "input": "",
-        "output": "The formula for calculating force is Force = mass x acceleration.",
-        "model_response": "The formula for calculating force is the force of gravity."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "India welcomes junta head for trade discussions India pitched for better business ties with Myanmar as it rolled out the red carpet on Monday for Senior General Than Shwe on the first visit by a head of the pariah state in nearly a quarter-century.",
+        "output": "Mundo",
+        "model_base_response": "### Entre:\n\nIndia's trade with Myanmar is growing at a faster rate than any other country in the",
+        "model_ft_medio_response": "Mundo"
     },
     {
-        "instruction": "Generate a sentence using the word 'innovative'.",
-        "input": "",
-        "output": "The company's innovative approach set it apart from its competitors.",
-        "model_response": "He is very innovative and always tries new things."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "2004 U.S. Hurricane Season Among Worst on Record Insurance adjusters and meteorologists are still crunching numbers and analyzing data, but the 2004 U.S. hurricane season will likely go down as one of the most active on record.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "The National Hurricane Center (NHC) reported that the number of hurricanes in the Atlantic basin increased by more than 50 percent from",
+        "model_ft_medio_response": "Negócios"
     },
     {
-        "instruction": "Generate a sentence using the word 'generous'.",
-        "input": "",
-        "output": "He is very generous and always helps those in need.",
-        "model_response": "He was generous and always provided for his friends."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Coupons in Hand, Shoppers Welcome Markdowns Shocked by a mediocre post-Thanksgiving weekend, merchants are rushing to mark down their merchandise - before the majority of holiday shoppers have even seen it.",
+        "output": "Negócios",
+        "model_base_response": "### Instrução:\n\nClassifique o texto da notícia abaixo em",
+        "model_ft_medio_response": "Negócios"
     },
     {
-        "instruction": "What is an antonym of 'sharp'?",
-        "input": "",
-        "output": "An antonym of 'sharp' is 'dull'.",
-        "model_response": "An antonym of 'sharp' is 'broad'."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "INTERVIEW: Gwalia Has Been Approached By Gold Ops Buyers PERTH (Dow Jones)--Financially distressed Australian mining company Sons of Gwalia Ltd. (SGW.AU) said Monday that it has been approached by several parties interested in buying its gold business.",
+        "output": "Negócios",
+        "model_base_response": "The company said it had been approached by a number of buyers, including Gold Ops, a gold-mining company based in Perth",
+        "model_ft_medio_response": "Negócios"
     },
     {
-        "instruction": "Describe the basic structure of a neuron.",
-        "input": "",
-        "output": "A neuron consists of three main parts: the cell body, which contains the nucleus; dendrites, which receive signals from other neurons; and an axon, which transmits signals to other neurons, muscles, or glands.",
-        "model_response": "The basic structure of a neuron is a synapse."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Armed Militiamen Worry Sudanese Refugees (AP) AP - Armed militiamen surged into a western border area where some Darfur refugees attempted to return to their raided village, U.N. security officials said Sunday, raising further concern about how quickly 1.4 million displaced Sudanese could return home safely.",
+        "output": "Mundo",
+        "model_base_response": "### Uma instrução:\n\nUma instrução de uma criatura",
+        "model_ft_medio_response": "Mundo"
     },
     {
-        "instruction": "Translate 'see you later' into Spanish.",
-        "input": "",
-        "output": "Hasta luego",
-        "model_response": "The Spanish translation of 'see you later' is 'se\u00f1or\u00edas'."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Applied Materials Returns to Profit  SAN FRANCISCO (Reuters) - Applied Materials Inc.  &lt;A HREF=\"http://www.investor.reuters.com/FullQuote.aspx?ticker=AMAT.O target=/stocks/quickinfo/fullquote\"&gt;AMAT.O&lt;/A&gt;,  the largest maker of chip-making tools, on Tuesday said healthy  spending on new semiconductor factories more than doubled  revenue and returned it to a quarterly profit.",
+        "output": "Negócios",
+        "model_base_response": "The company said it had increased spending on new semiconductor factories by more than $1 billion in the past year,",
+        "model_ft_medio_response": "Negócios"
     },
     {
-        "instruction": "What are the first 10 elements of the Fibonacci sequence?",
-        "input": "",
-        "output": "0, 1, 1, 2, 3, 5, 8, 13, 21, 34.",
-        "model_response": "The first 10 elements of the Fibonacci sequence are: 1, 2, 3, 4, 5, 6, 7, 8, 9."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Bill introduced in US Senate, seeking UN action on Myanmar (AFP) AFP - A resolution seeking UN Security Council action against Myanmar was introduced in the US Senate, accusing the Southeast Asian state's military rulers of brutally repressing ethnic minorities and using rape as a weapon of war.",
+        "output": "Mundo",
+        "model_base_response": "### The resolution:\n\nThe resolution calls on the UN Security Council to \"immediately and fully investigate the alleged",
+        "model_ft_medio_response": "Mundo"
     },
     {
-        "instruction": "What is an antonym of 'transparent'?",
-        "input": "",
-        "output": "An antonym of 'transparent' is 'opaque'.",
-        "model_response": "An antonym of 'transparent' is 'illuminate'."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Startup no more, Netflix girds for DVD rental price war The future suddenly looks shaky for online DVD rental pioneer Netflix Inc. - a plucky home entertainment upstart that managed to hold its ground after retailing giants Wal-Mart Stores Inc.",
+        "output": "Negócios",
+        "model_base_response": "and Target Corp. slashed prices on its DVD-by-mail service. Netflix's stock price has soared since the company's",
+        "model_ft_medio_response": "and Best Buy Co.\n\n\nNegócios"
     },
     {
-        "instruction": "What is the past tense of 'think'?",
-        "input": "",
-        "output": "The past tense of 'think' is 'thought'.",
-        "model_response": "The past tense of 'think' is 'truly.'"
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Update 1: Asset Writedown Leads to \\$3.4B MCI Loss MCI Inc., one of the nation #39;s biggest long-distance operators, lost \\$3.4 billion in the third quarter of 2004 due to a previously announced asset writedown of \\$3.",
+        "output": "Negócios",
+        "model_base_response": "4 billion. The writedown was expected to be completed by the end of the year.\n\nUpdate 2: Asset",
+        "model_ft_medio_response": "4 billion, the company said in a statement.\n\n\nNegócios"
     },
     {
-        "instruction": "Classify each sentence as either declarative, interrogative, imperative, or exclamatory.",
-        "input": "Please open the door.",
-        "output": "The classification of the sentence 'Please open the door.' is imperative.",
-        "model_response": "The sentence 'Please open the door' is interrogative."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Oil Prices Down to \\$49 Crude oil prices were back at the \\$49-a-barrel level Monday, after a one-day bounce Friday. The benchmark US crude was off 54 cents at \\$49.",
+        "output": "Negócios",
+        "model_base_response": "50 a barrel, down from \\$54.50 a barrel on Friday.\n\n### Uma instrução",
+        "model_ft_medio_response": "39 a barrel.\n\n\nNegócios"
     },
     {
-        "instruction": "Rewrite the sentence to use a negative adverb.",
-        "input": "She always remembers to call.",
-        "output": "She never forgets to call.",
-        "model_response": "She always remembers to call."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Delta Air Lines Sees Loss Mushrooming  NEW YORK (Reuters) - Delta Air Lines Inc. &lt;A HREF=\"http://www.investor.reuters.com/FullQuote.aspx?ticker=DAL.N target=/stocks/quickinfo/fullquote\"&gt;DAL.N&lt;/A&gt; on Friday  forecast a much wider third-quarter loss than Wall Street had  estimated because of weak domestic fares and a spike in fuel  costs, driven by record-high oil prices.",
+        "output": "Negócios",
+        "model_base_response": "Delta said it would cut its full-year profit forecast by about $1.5 billion to $1.3 billion,",
+        "model_ft_medio_response": "Negócios"
     },
     {
-        "instruction": "Convert 50 miles per hour to kilometers per hour.",
-        "input": "",
-        "output": "50 miles per hour is approximately 80.47 kilometers per hour.",
-        "model_response": "50 miles per hour is approximately 32.07 kilometers per hour."
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Kim ties record at State Farm Classic Christina Kim made 11 birdies and tied the tournament record of 10-under-par 62 for a two-shot lead after the opening round of the LPGA State Farm Classic in Springfield, Ill.",
+        "output": "Esportes",
+        "model_base_response": "### Entre:\n\nKim ties the record for the most birdies in a round at the LPGA",
+        "model_ft_medio_response": "Esportes"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "S.E.C. Says Fannie Mae Violated Accounting Rules The Securities and Exchange Commission has ordered Fannie Mae to restate its earnings for the last four years after concluding that it had violated accounting rules.",
+        "output": "Negócios",
+        "model_base_response": "The agency said it found that Fannie Mae had failed to disclose that it had paid $1.2 billion in interest to",
+        "model_ft_medio_response": "Negócios"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Greece #39;s funding under threat The European commission threatened yesterday to suspend development funds to Greece in response to Athens #39;s admission that it had disguised the extent of the country #39;s debts in order to join the euro.",
+        "output": "Negócios",
+        "model_base_response": "### Instrução:\n\nGreece #39;s funding under threat The European commission threatened yesterday",
+        "model_ft_medio_response": "Negócios"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "U.N.: Explosives Missing from Former Iraq Atomic Site  VIENNA (Reuters) - Nearly 380 tons of explosives are  missing from a site near Baghdad that was part of Saddam  Hussein's dismantled atom bomb program but was never secured by  the U.S. military, the United Nations said Monday.",
+        "output": "Mundo",
+        "model_base_response": "The U.N. said the missing materials included a variety of materials used in the production of the bomb, including a variety",
+        "model_ft_medio_response": "Mundo"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "News: Russian fined for virus-writing exploits A Russian member of well-known 29A virus writers group has been fined 3,000 roubles (approximately 57) after he admitted writing malicious code.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "The Russian hacker, who goes by the name of \"Kaspersky Lab\", was arrested in March 2015. He was sentenced",
+        "model_ft_medio_response": "Ciência/Tecnologia"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Deutsche Telekom stake may be sold for 4.45 billion Stake in Deutsche Telekom AG may be sold by Germany for 4.45 billion (\\$5.5 billion) as EU faces finance deficits and seeks for the ways to resolve the problem.",
+        "output": "Negócios",
+        "model_base_response": "### Deutschlandbank:\n\nDeutsche Bank AG may be sold for 4.45 billion Stake in",
+        "model_ft_medio_response": "Negócios"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Drop in Consumer Confidence Unexpectedly Steep in August onsumers #39; renewed worries about job prospects led to a bigger-than-expected drop in confidence in August and provided more evidence of the fragility of the economic expansion.",
+        "output": "Negócios",
+        "model_base_response": "### Instrução:\n\nClassifique o texto da notícia abaixo em",
+        "model_ft_medio_response": "Negócios"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Nebraska #39;s loss is a bowl-breaker Cedric Benson ran for 165 yards and a touchdown to lead the Longhorns over the Aggies in Austin, Texas. Vince Young added a touchdown run and 224 yards total for the Longhorns (10-1, 7-1 Big 12), who earned ",
+        "output": "Esportes",
+        "model_base_response": "Â a share of the Big 12 title.\n\n### Texas A&M #10;s loss is a bowl-",
+        "model_ft_medio_response": "Esportes"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Sidebar: PeopleSoft Puts CRM App on BlackBerries OCTOBER 25, 2004 (COMPUTERWORLD) - PeopleSoft Inc. today will announce that it #39;s porting the sales force automation module from the latest version of its CRM software to Research In Motion Ltd.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "(RIM) BlackBerries, a popular and widely used CRM software for the Internet of Things (IoT",
+        "model_ft_medio_response": "Negócios"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "4 killed, 22 injured in Kashmir attack A suicide car bomber rammed into an army convoy in Indian-controlled Kashmir on Saturday, triggering an explosion that left four people dead and 22 wounded, the army said.",
+        "output": "Mundo",
+        "model_base_response": "### Entrada:\n\nA suicide car bomber rammed into an army convoy in Indian-controlled Kashmir on",
+        "model_ft_medio_response": "Mundo"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Cisco snags routing start-up Cisco systems announced on Thursday that it has finalized a definitive agreement to acquire privately held BCN Systems. Cisco had been an investor in the Santa Clara, Calif.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "company since 2007.\n\nThe deal, which is expected to close in the second half of this year, will combine the",
+        "model_ft_medio_response": "company since 2004.\n\n\nNegócios"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Tokyo Stocks Jump by Midday  TOKYO (Reuters) - Tokyo's Nikkei average rose 1.33 percent  by midday on Friday, led higher by banks and insurers thanks to  a better-than-expected corporate sentiment survey by the Bank  of Japan.",
+        "output": "Negócios",
+        "model_base_response": "The index rose 0.8 percent  in the 12 months to March, its best performance since March 2011.",
+        "model_ft_medio_response": "Negócios"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "SpaceShipOne Completes First of Two X Prize Flights (Update1) SpaceShipOne, financed by Microsoft Corp. co-founder Paul Allen and built by aviation pioneer Burt Rutan, rocketed 62 miles over the California desert, completing the first half of ",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "its first flight. The company's first flight was a success, and the company is now planning to fly a second flight",
+        "model_ft_medio_response": "Ciência/Tecnologia"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "No. 14 Arizona Defeats Arizona St. 97-79 (AP) AP - Salim Stoudamire had 15 of his 18 points in the second half, helping No. 14 Arizona turn a close game into a 97-79 rout of Arizona State in their Pac-10 opener Sunday.",
+        "output": "Esportes",
+        "model_base_response": "### Entrada:\n\nNo. 14 Arizona Defeats Arizona St. 97-79 (AP)",
+        "model_ft_medio_response": "Esportes"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Do You Need Disability Insurance? There's a good chance you'll become disabled for a while. Are you protected?",
+        "output": "Negócios",
+        "model_base_response": "### What to do if you need help:\n\nIf you need help, you can call the National Disability Insurance",
+        "model_ft_medio_response": "And what if you don #39;t have insurance?\n\n\nNegócios"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Bell Canada sells stake in MTS MONTREAL (CP) - BCE Inc. is selling most of its minority stake in MTS for a total of \\$578 million, with MTS buying back more than half of the shares and the rest sold on the open market, BCE announced Wednesday.",
+        "output": "Negócios",
+        "model_base_response": "The deal is expected to close in the second half of 2017.\n\nBell Canada's stake in MTS is",
+        "model_ft_medio_response": "Negócios"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Firefox Threatens IE in the Browser Market Firefox Threatens IE in the Browser Market\\\\Mozilla is starting to pose a threat to Microsoft's Internet Explorer after years of being the darling of a strange mix of AOL enthusiasts and techies. This week Mozilla released the preview of FireFox 1.0, and with more web surfers becoming browser savvy, a ...",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "### Instrução:\n\nClassifique o texto da notícia abaixo em",
+        "model_ft_medio_response": "Ciência/Tecnologia"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "What we learned Minnesota: The tailback tag team of junior Marion Barber and sophomore Laurence Maroney, who combined for 231 yards Saturday and have 1040 yards already this season, has made the Gophers one of the top rushing teams in the country.",
+        "output": "Esportes",
+        "model_base_response": "Barber, who has rushed for 1,845 yards and 11 touchdowns, is the only player in the country with more than",
+        "model_ft_medio_response": "Esportes"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "US Considering Incentives for Iran Resigning Iranian Vice-President Mohammad Ali Abtahi, center, and newly appointed Vice-President Majid Ansari, second left, attend a meeting of the central council of their party President Mohammad Khatami accepted Abtahi #39;s resignation, in Tehran, Iran ",
+        "output": "Mundo",
+        "model_base_response": "�",
+        "model_ft_medio_response": "Mundo"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Jones #39; big day was in the cards Kevin Jones decided to stop rushing things a few weeks ago, and it helped him turn in the second-best rushing performance for a Lions rookie running back.",
+        "output": "Esportes",
+        "model_base_response": "He finished with 1.5 yards per carry, and he also had a pair of touchdowns.\n\n### De que est",
+        "model_ft_medio_response": "Esportes"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Singapore wants to double manufacturing in 15 years Singapore says it hopes to double manufacturing output in 15 years as regional competition heats up from lower-cost rivals such as fast-growing China and India.",
+        "output": "Mundo",
+        "model_base_response": "### Está em português:\n\nEste em português de esta portugu",
+        "model_ft_medio_response": "Negócios"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "GOLF: Woods-Mickelson not dream team Tiger Woods paired with Phil Mickelson. A dream team in golf gloves. Together, they would lead the charge at the Ryder Cup, carry the United States into an early lead, discourage the Europeans, ignite the home crowd.",
+        "output": "Esportes",
+        "model_base_response": "### Está em que uma instrução:\n\nClassifique o texto da notí",
+        "model_ft_medio_response": "Esportes"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "A Sense of Security An Independent News writer tells of his switch from Windows to a 15-inch PowerBook,:  #147;Two months in, I have a prevailing sense of security and safety. There #146;s been not a sniff of system meltdown. The software and security updates are easy, convenient and (via broadband) fast. The sense of considerable computing power and massive processing going on is very evident, but it feels secure behind the OS X firewall and a router; and all with no need for antivirus software. #148; Aug 20",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": ", 2014; #149; Aug 20, 2014; #150; Aug 20, 2014; #151; Aug 20,",
+        "model_ft_medio_response": ", 2004, The New York Times, 'Microsoft #146;s New PowerBook Is a Security Threat'\n\n###"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "F1 #39;s plans for London race gather pace Bernie Ecclestone remains in the grip of Christmas spirit. A day after the gift of the British Grand Prix, given a July 10 date at yesterday #39;s FIA world council meeting, Formula One #39;s commercial ",
+        "output": "Esportes",
+        "model_base_response": "ids are being prepared for the London race.\n\n### F1 #39;s commercial ids:\n\n#",
+        "model_ft_medio_response": "Esportes"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Prince Sihamoni named new king of Cambodia Cambodia #39;s Throne Council choseThursday Prince Norodom Sihamoni a new king of Cambodia, a week after his father Norodom Sihanouk abdicated.",
+        "output": "Mundo",
+        "model_base_response": "### Entrada:\n\nCambodia's King Norodom Sihamoni abdicates after",
+        "model_ft_medio_response": "Mundo"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Nokia and Vodafone to Lead Roadmap for Mobile Java Standards LONDON, Aug. 26 /PRNewswire-FirstCall/ -- In a move that is intended to deliver benefits for the mobile industry and for mobile customers, Nokia and Vodafone today announce the formation of a mobile service architecture initiative.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "The initiative will be led by Nokia and Vodafone, with the aim of developing a roadmap for mobile Java standards.",
+        "model_ft_medio_response": "Ciência/Tecnologia"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Mice Thrive Without Chapters of the Book of Life It #39;s called the book of life but mice, and perhaps humans, can still thrive even when chapters are missing, scientists said Wednesday.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "The study, published in the journal Science, found that mice that were given a diet of a diet of mice with",
+        "model_ft_medio_response": "Ciência/Tecnologia"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "HEADLINE STOCKS: Stocks to Watch, Nov. 17  NEW YORK (Reuters) - U.S. stocks to watch on Wednesday  include Sears, Roebuck   Co., Kmart Holding Corp.,  Hewlett-Packard Co., and Network Appliance Inc.  ",
+        "output": "Negócios",
+        "model_base_response": "### Instrução:\n\nClassifique o texto da notícia abaixo em",
+        "model_ft_medio_response": ""
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Congressional act shortens check  #39;float time #39; Congress recently passed the  quot;Checks for the 21st Century Act quot; - also known as  quot;Check 21 quot; - and it goes into effect today.",
+        "output": "Negócios",
+        "model_base_response": "### Para que:\n\n#39:\n\n#39:\n\n#39:\n\n#",
+        "model_ft_medio_response": "Negócios"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Eisner, on Ovitz, describes a culture clash at Disney GEORGETOWN, Delaware It was at his mother #39;s funeral in the summer of 1996 that Michael Eisner, the chief executive of Walt Disney, knew he had to dismiss the president he had hired just 10 months earlier.",
+        "output": "Negócios",
+        "model_base_response": "Eisner had been hired to run the company's entertainment division, but he had been fired just two months earlier for failing to",
+        "model_ft_medio_response": "Negócios"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Tokyo Stocks Firmer as Oil Drops Back  TOKYO (Reuters) - Japan's Nikkei average rose 0.91 percent  in early trade on Monday after crude oil dropped back from  record highs above \\$49 a barrel, encouraging some investors to  return to the Tokyo stock market in search of bargains.",
+        "output": "Negócios",
+        "model_base_response": "The Nikkei index rose 0.9 percent to end at 1,946.55, its highest since March.",
+        "model_ft_medio_response": "Negócios"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Diamondbacks Keep Busy; Ortiz Heading Home  ANAHEIM, Calif., (Sports Network) - The Arizona  Diamondbacks continued their offseason makeover Friday as they  signed free agent pitcher Russ Ortiz to a four-year contract.",
+        "output": "Esportes",
+        "model_base_response": "Ortiz, 30, is coming off a season in which he posted a 2.82 ERA with a 3.45 FIP",
+        "model_ft_medio_response": "Esportes"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Spain lead United State 2-0 in Davis Cup final Rafael Nadal upset Andy Roddick 6-7 (8-6), 6-2, 7-6 (8-6), 6-2 to give Spain a 2-0 lead over the United States in the Davis Cup final in Seville, Spain, on Friday.",
+        "output": "Esportes",
+        "model_base_response": "### Entre:\n\nNadal defeated Roddick 6-7 (8-6), 6-",
+        "model_ft_medio_response": "Esportes"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Season Off to Slow Start The nation's retailers had a disappointing start to the holiday season, reporting sluggish sales for November after a much hoped-for surge in Thanksgiving weekend business failed to materialize.",
+        "output": "Negócios",
+        "model_base_response": "### Instrução:\n\nClassifique o texto da notícia abaixo em",
+        "model_ft_medio_response": "Negócios"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Berlusconi Ally Gets 9-Year Prison Term for Links to Mafia An Italian court has sentenced a close political ally of Prime Minister Silvio Berlusconi to nine years in prison for working with the mafia.",
+        "output": "Mundo",
+        "model_base_response": "The court also sentenced the former prime minister to three years of probation. The court also ordered the former prime minister to pay a",
+        "model_ft_medio_response": "Mundo"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "PONTING BACKS VAUGHAN #39;S MEN Australia are backing England to go on to win the ICC Champions Trophy after losing their one-day stranglehold over their arch rivals yesterday.",
+        "output": "Esportes",
+        "model_base_response": "The England team, led by captain Alastair Cook, were beaten by Australia in the final of the World T",
+        "model_ft_medio_response": "Esportes"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "British mobile phone firm mmO2 hikes revenue forecast (AFP) AFP - Mobile telephone operator mmO2 raised its forecasts for British revenue growth but would not be drawn on an exact date for the launch of third-generation services in its domestic market.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "### Está como ao que uma instrução que descreve uma tarefa.",
+        "model_ft_medio_response": "Negócios"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Jaguar's Coventry plant to close Jaguar's historic Brown's Lane factory in Coventry is to close, Ford has confirmed, with 400 jobs expected to be lost.",
+        "output": "Mundo",
+        "model_base_response": "The Coventry plant, which employs about 1,000 people, will close on Friday, the company said.",
+        "model_ft_medio_response": "Negócios"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Apache Software Foundation may hire full-time, paid staff The Apache Software Foundation, which now relies on volunteers to stay in operation, may soon have full-time, paid employees, including an executive director.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "The announcement was made by the foundation's board of directors on Wednesday, and the announcement comes as the foundation is facing a $",
+        "model_ft_medio_response": "Ciência/Tecnologia"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Raptors big men key in ending Jazz win streak The Utah Jazz knew they were going to lose sometime, they just didn #39;t think it would be to guys named Chris Bosh and Loren Woods.",
+        "output": "Esportes",
+        "model_base_response": "The Jazz were able to get the win in overtime, but it was a big blow to the Jazz's season.",
+        "model_ft_medio_response": "Esportes"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Survey: State leads in use of generics Massachusetts leads the nation in the use of generic drugs, with 51 percent of its prescriptions written for the cheaper, non-brand medications, according to a survey.",
+        "output": "Negócios",
+        "model_base_response": "### Esta não:\n\nClassifique o texto da notícia abaixo em",
+        "model_ft_medio_response": "Negócios"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "SPECTOR: Proposals offer chance to compromise The chess game between the NHL and the NHLPA continued Tuesday, with the league rejecting the players #39; offer from last Thursday and tabling a counteroffer, which was in turn rejected by the NHLPA.",
+        "output": "Esportes",
+        "model_base_response": "### The NHLPA:\n\n\"The NHLPA is disappointed that the NHL has rejected the players' counteroffer",
+        "model_ft_medio_response": "Esportes"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Medical Experts Fear Charley's Aftermath PUNTA GORDA, Fla. - Until the electricity hums again and the debris is cleared, health officials are worried that there could be more deaths and injuries in Hurricane Charley's aftermath than during the storm itself...",
+        "output": "Mundo",
+        "model_base_response": "### The Latest:\n\nThe Florida Department of Health has issued a mandatory evacuation order for the entire state of Florida",
+        "model_ft_medio_response": "Mundo"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Fish and Wildlife Service delays panther protection plan The US Fish and Wildlife Service has delayed the adoption of a plan designed to protect Florida panthers from encroaching development.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "The agency's decision comes after a public comment period that ended in late June. The agency's decision comes after a public comment",
+        "model_ft_medio_response": "Negócios"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "AT amp;T to Cut 7,400 More Jobs, Take \\$11.4 Bln Writedown (Update3) AT amp;T Corp. said it will cut 7,400 more jobs this year and write down \\$11.4 billion of assets as the phone company retreats from the residential business it once dominated.",
+        "output": "Negócios",
+        "model_base_response": "### Está em aumentar ao Brasil:\n\nAumentar ao Brasil: A",
+        "model_ft_medio_response": "Negócios"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Famous film maker put up for sale Ilford Imaging, the world's largest producer of black and white camera film, is up for sale after going into administration.",
+        "output": "Negócios",
+        "model_base_response": "The company, which has been in administration since November, was founded in 1894 by the late Sir John Ilf",
+        "model_ft_medio_response": "Negócios"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Microsoft unveils Works 8 The dictionary module has been integrated into the word processor and is also a stand-alone application in the Works Task Launcher. A thesaurus has been included, as well as the option to set parental controls. ",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "Â\n\n### Instrução:\n\nClassifique o texto da notícia abaixo",
+        "model_ft_medio_response": ""
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Amnesty for rein on MNCs New Delhi, Nov. 29: Amnesty International, Greenpeace and other non-governmental organisations are working towards establishing a legal framework to make multinational corporations more accountable to peoples needs.",
+        "output": "Mundo",
+        "model_base_response": "### Enseguir:\n\nEnseguir de MNCs, para ou ou o",
+        "model_ft_medio_response": "Negócios"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Bickering Iraqis Strive to Build Voting Coalition Established Shiite parties and powerful upstarts are feuding, causing their leading cleric to try to pull them together to ensure that the Shiites clearly dominate the new government.",
+        "output": "Mundo",
+        "model_base_response": "### Enseguir:\n\nA new poll shows that the majority of Iraqis are against the new government.",
+        "model_ft_medio_response": "Mundo"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Prominent investment banker gets jail term Frank Quattrone, considered the most prominent investment banker of the 1990s technology boom, has been sentenced to 18 months in prison.",
+        "output": "Negócios",
+        "model_base_response": "Quattrone, who was convicted of fraud and money laundering, was sentenced to 18 months in prison for his role in a",
+        "model_ft_medio_response": "Negócios"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Antibiotic hope for Parkinson's \\An antibiotic used to treat leprosy and tuberculosis is showing promise as a therapy for Parkinson's disease.",
+        "output": "Mundo",
+        "model_base_response": "### Esta instrução:\n\nAseptic therapy for Parkinson's \\Aseptic therapy is",
+        "model_ft_medio_response": "Negócios"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Apple extends PowerBook screen repair program Apple Computer is offering free replacement screens to owners of 15-inch PowerBook models whose machines have a flaw that causes the screen to display white spots.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "The program is available for the following models: PowerBook 15, 15.1, 15.2, 15.3,",
+        "model_ft_medio_response": "Ciência/Tecnologia"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Bush leaves for overnight trip to Canada in effort to force closer ties (Canadian Press) Canadian Press - WASHINGTON (CP) - President George W. Bush left early Tuesday for his first official visit to Canada since he was re-elected in an effort to forge friendlier ties.",
+        "output": "Mundo",
+        "model_base_response": "Bush, who has been criticized for his handling of the Iraq war, will arrive in Ottawa on Wednesday for a two-day",
+        "model_ft_medio_response": "Mundo"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Bears Safety Mike Brown Out for Season (AP) AP - Chicago Bears safety Mike Brown will miss the rest of the season after tearing his right Achilles tendon in a victory over Green Bay, coach Lovie Smith said Monday.",
+        "output": "Esportes",
+        "model_base_response": "Brown, who was injured in the second quarter, was carted off the field on a cart and was taken to a hospital",
+        "model_ft_medio_response": "Esportes"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Bell rivals say new rules may cost business customers \\$130B American businesses would face \\$105 billion in higher telephone bills during the next 10 years if the Federal Communications Commission deregulates access to the high-capacity loops that serve business customers.",
+        "output": "Negócios",
+        "model_base_response": "### Esta não de um não de um não de um não de um não de um",
+        "model_ft_medio_response": "Negócios"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Fake goods tempting young adults Young people are increasingly happy to buy pirated goods or illegal download content from the net, a survey shows.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "The survey, conducted by the Brazilian Association of Internet Service Providers (AISP), found that the number of",
+        "model_ft_medio_response": "Ciência/Tecnologia"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Polls point to Howard victory Australians vote in less than 24 hours to choose a new government with most key pointers suggesting the incumbent conservative coalition of Prime Minister John Howard will be returned.",
+        "output": "Mundo",
+        "model_base_response": "### Polls:\n\nThe latest Newspoll shows Howard leading Labor by a margin of 51-49 per cent",
+        "model_ft_medio_response": "Mundo"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "French firms sign big deals with China but lament the ones that got away (AFP) AFP - French companies and farmers have reeled in deals reportedly worth up to five billion euros (dollars) in China during a state visit to the country by President Jacques Chirac, but executives were said to be disappointed that bigger business was not won.",
+        "output": "Mundo",
+        "model_base_response": "### Enseguir:\n\nAsegês de um não de um não de um",
+        "model_ft_medio_response": "Negócios"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Namibians cast their ballots Namibian voters are casting their ballots in the nation #39;s presidential and parliamentary elections. In Windhoek, people started arriving at the polling stations as early as 5am today.",
+        "output": "Mundo",
+        "model_base_response": "### Entrada:\n\nNamibians cast their ballots Namibians cast their ballots in the nation",
+        "model_ft_medio_response": "Mundo"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "NL Wrap: Rueter Sharp as Giants Stay in Race  NEW YORK (Reuters) - Kirk Rueter allowed just three hits  over seven innings and J.T. Snow homered as the San Francisco  Giants scored a crucial 4-2 win over Los Angeles in National  League play at Dodger Stadium Friday.",
+        "output": "Esportes",
+        "model_base_response": "The Giants won for the first time since April 8, when they lost to the Los Angeles Dodgers. \"I think we played",
+        "model_ft_medio_response": "Esportes"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Iraq Awards First Post-War Oilfield Contracts  BAGHDAD (Reuters) - Iraq's oil ministry has awarded the  country's first post-war oilfield development contracts to  Turkish and Canadian firms, an oil official said on Thursday.",
+        "output": "Mundo",
+        "model_base_response": "The contracts, worth $1.5 billion, were awarded to the Turkish firm Kalyan, which has been",
+        "model_ft_medio_response": "Negócios"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Eisner testimony countered Walt Disney Chairman George Mitchell said he was asked to become company president before the job was offered to Michael Ovitz, disputing testimony by CEO Michael Eisner.",
+        "output": "Negócios",
+        "model_base_response": "### Eisner testimony:\n\nEisner testified that he was asked to become company president before the job was offered",
+        "model_ft_medio_response": "Negócios"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Carolina, Clemson fans square off in annual gift of life #39; &lt;b&gt;...&lt;/b&gt; CORDOVA - Collegiate loyalties run deep, and there #39;s no school rivalry any more intense than the one between the Clemson University Tigers and the University of South Carolina Gamecocks, whose fans are even willing to bleed for their teams.",
+        "output": "Esportes",
+        "model_base_response": "###\n\n#39:\n\n#39:\n\n#39:\n\n#39:",
+        "model_ft_medio_response": "Esportes"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Consummate Bruin Bourque is enshrined among NHL #39;s finest For 22 years, Ray Bourque had been preparing for last night. As he played each game of his National Hockey League career, he wasn #39;t cognizant ",
+        "output": "Esportes",
+        "model_base_response": "Â of the fact that he was the #39;s finest.\n\nIn the last 22 years, Ray Bourque",
+        "model_ft_medio_response": "Esportes"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Flying the Sun to Safety When the Genesis capsule comes back to Earth with its samples of the sun, helicopter pilots will be waiting for it, ready to snag it out of the sky.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "### Avisão:\n\nAvisão: The Sun is Coming Back to Earth\n\n### Avis",
+        "model_ft_medio_response": "Ciência/Tecnologia"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Russian Cosmonaut to Travel With the Next Space Station Crew A Russian cosmonaut will travel to the International Space Station with the outpost #39;s next two-man crew when it launches aboard a Russian Soyuz spacecraft next month, the National Aeronautics and Space Administration said.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "### Está em Português:\n\nA Portuguese newspaper reported that the country's first female astronaut will",
+        "model_ft_medio_response": "Ciência/Tecnologia"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Administration Debating Oil Stockpile Release The Bush administration is moving toward releasing oil from the nation's emergency stockpiles as a result of disruptions to production and imports caused by Hurricane Ivan.",
+        "output": "Negócios",
+        "model_base_response": "The administration has announced that it will release the oil from the emergency stockpile on October 1, and that it will release the oil",
+        "model_ft_medio_response": "Negócios"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Symantec Readies Patching Tool ON IPatch monitors, ensures networked Windows systems are current in midsize businesss.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "### Instrução:\n\nSymantec Readies Patching Tool ON IPatch monitors, ensures network",
+        "model_ft_medio_response": "Ciência/Tecnologia"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Tribesmen Press for Hostages' Release (AP) AP - Hundreds of tribesmen gathered Tuesday near the area where suspected al-Qaida-linked militants are holding two Chinese engineers and demanding safe passage to their reputed leader, a former U.S. prisoner from Guantanamo Bay, Cuba, officials and residents said.",
+        "output": "Mundo",
+        "model_base_response": "### Entrada:\n\nTribesmen Press for Hostages' Release (AP) AP - Hundreds of",
+        "model_ft_medio_response": "Mundo"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "FA won #39;t consider part-time England boss September 24, 2004. The Football Association have released a statement to deny reports that have suggested the role of England manager will be reduced to a part-time position.",
+        "output": "Esportes",
+        "model_base_response": "### Entrada:\n\nFA won #39;t consider part-time England boss September 24, 2004",
+        "model_ft_medio_response": "Esportes"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Kazaa trial opens with 'massive piracy' claim Sharman 'encouraged' illegal file-trading, lawyers allege",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "The trial of a former employee of the online video game company Kazaa has been delayed after a lawyer for the",
+        "model_ft_medio_response": ". The trial of the world #39;s most popular file-trading network begins today in the US with the claim"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Palestinians won #39;t bring anti-Israel draft to General Assembly The Palestinians have decided not to bring a draft resolution condemning Israel #39;s military operation in the northern Gaza ",
+        "output": "Mundo",
+        "model_base_response": "(Israel) to the General Assembly.\n#39;s military operation in the northern Gaza  (Israel)",
+        "model_ft_medio_response": "Mundo"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "TV REPORTER DROWNS ON ASSIGNMENT Taipei, Oct. 25 (CNA) A local TV reporter was swept away by floodwaters and drowned while covering Typhoon Nock-Ten in Taipei County Monday morning.",
+        "output": "Mundo",
+        "model_base_response": "The reporter, who was working for the local TV station, was working on a report about the typhoon when he was swept",
+        "model_ft_medio_response": "Mundo"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Wireless to Drive Internet Growth, Tech Leaders Say Wireless services will lead the next growth phase of the Internet as venture capitalists who helped fund the early boom open their wallets again, industry leaders said Monday.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###",
+        "model_ft_medio_response": "Ciência/Tecnologia"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "AUTO RACING: I hope to help Busch Roush Racing driver Matt Kenseth, the defending NASCAR champion, will race Sunday in the Ford 400 at Homestead, Fla., the final event in the Nextel Cup series.",
+        "output": "Esportes",
+        "model_base_response": "### AUCTION: I hope to help the NASCAR Sprint Cup Series teams, the teams that have been struggling to",
+        "model_ft_medio_response": "Esportes"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Chirac to push for international tax to fight poverty (AFP) AFP - French President Jacques Chirac will put forward ideas for an international tax scheme that would help build a 50-billion-dollar war chest to fight poverty during a 55-nation conference on economic development opening Monday in New York.",
+        "output": "Mundo",
+        "model_base_response": "### Enseguir:\n\nEste não de um não de um não de um n",
+        "model_ft_medio_response": "Mundo"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Philips switches strategy pictures through flat screen disposal (AFP) AFP - The Dutch electronics group Philips said that it is selling its low-brand flat screens business group to TPV Technology of Taiwan as part of a strategic change of direction, and in line with a trend by big groups to use Asian partners to cut costs.",
+        "output": "Mundo",
+        "model_base_response": "The move comes as the company is looking to reduce its costs and focus on its core business of flat-screen televisions.",
+        "model_ft_medio_response": "Negócios"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Cleric at Arafat's Bedside During 'Final Phase' A top Islamic cleric rushed from the West Bank to Yasser Arafat's hospital bedside Wednesday in what an aide to the Palestinian leader called the \"final phase\" of his life.",
+        "output": "Mundo",
+        "model_base_response": "Arafat's wife, Fatima, and his son, Mohammed, were among those who attended the visit.",
+        "model_ft_medio_response": "Mundo"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Why we enjoy telling people off Telling people off activates a part of the brain linked to enjoyment and satisfaction, say scientists.",
+        "output": "Mundo",
+        "model_base_response": "### The study:\n\nThe researchers recruited participants from the Brazilian university of São Paulo and the University of S",
+        "model_ft_medio_response": "Ciência/Tecnologia"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Whalen, Sun off to bright start Lindsay Whalen made the most of the biggest game of her professional career. The rookie guard led the Connecticut Sun to a 68-64 victory over the Seattle Storm last night in the opening game of the WNBA Finals.",
+        "output": "Esportes",
+        "model_base_response": "Whalen, who was named the WNBA Rookie of the Year, scored 12 points and grabbed six rebounds in",
+        "model_ft_medio_response": "Esportes"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Montana Moves to Resume Bison Hunting (AP) AP - On a spring day in 1990, there was chaos near the border of Yellowstone National Park. Bison were running. Hunters were facing off with activists who were trying to keep them from killing the bison. And D.J. Schubert was in the thick of it, leading the protesters.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "Schubert, a Montana rancher, was arrested and charged with conspiracy to commit an act of terrorism. He",
+        "model_ft_medio_response": "Mundo"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Three Beheaded Bodies Found North of Baghdad The decapitated bodies of three men, their heads strapped to their backs and the corpses put in nylon bags, were found dumped by a roadside north of Baghdad Wednesday, Iraqi police and US officials said.",
+        "output": "Mundo",
+        "model_base_response": "The bodies were found in the village of al-Qa'im, about 30 kilometers (20 miles) north of Baghdad",
+        "model_ft_medio_response": "Mundo"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "New Windows OS Boosts Security After years of trying to make it easier for peripheral devices to work smoothly with computers, Microsoft is building in some difficulty. The upcoming Longhorn OS should allow companies to keep gizmos like iPod from stealing data.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "### Instrução:\n\nClassifique o texto da notícia abaixo em",
+        "model_ft_medio_response": "Ciência/Tecnologia"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "City prepared to sell 5million Anelka in the New Year Manchester City Football Club are prepared to sell Nicolas Anelka in the New Year transfer window. The controversial French striker was blasted by the City fans at the weekend following his comments he wants ",
+        "output": "Esportes",
+        "model_base_response": "to leave the club. The club are prepared to sell the player for around 5million euros. The club are also prepared",
+        "model_ft_medio_response": "Esportes"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Ubiquitous browser hole an easy target for scammers Dec 10, 2004: A new web browser security hole has been uncovered by a security firm, which could provide scammers with the means to launch phishing attacks from pop-up windows on genuine, trusted websites.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "The flaw, which was discovered by security firm Symantec, allows a malicious user to send a specially crafted web page to",
+        "model_ft_medio_response": "Ciência/Tecnologia"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Cash Bounties For Spammers Win Limited FTC Backing The Federal Trade Commission yesterday gave limited endorsement to offering cash rewards to people who help track down e-mail spammers, suggesting that such bounties might work but in fewer ",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "vernaculars. The FTC's announcement came after a yearlong investigation into the practice of spamming e-mail accounts with",
+        "model_ft_medio_response": "Negócios"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Music labels embrace P2P network Wurld Media has concluded agreements with Sony BMG, Universal Music Group and Warner Music Group to facilitate the licensing of music exchanged on its peer-to-peer music network.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "The agreements will allow the companies to offer music to consumers through the P2P network. The agreements will also allow the companies",
+        "model_ft_medio_response": "Negócios"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "BAE buys IT supplier to Pentagon BAE Systems acquires a US firm which provides computer and IT systems to the US defence department.",
+        "output": "Mundo",
+        "model_base_response": "### Esta instrução:\n\nEsta instrução:\n\n### Esta inst",
+        "model_ft_medio_response": "Negócios"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Charley #39;s insured losses seen hitting \\$7.4 billion NEW YORK, Aug 18 (Reuters) - Insurance payments to victims of Hurricane Charley are expected to reach \\$7.4 billion, making it the second most costly hurricane to hit the United States, an insurance industry group said on Wednesday. ",
+        "output": "Negócios",
+        "model_base_response": "��\n\nThe National Association of Insurance Commissioners (NAIC) said the total amount of claims for damage to property and loss",
+        "model_ft_medio_response": ""
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Colombia Says Rebels Planned to Kill Bush A top official in Colombia says the country #39;s largest Marxist rebel group targeted President Bush for assassination when he visited Cartagena this past week.",
+        "output": "Mundo",
+        "model_base_response": "### Esta esporte:\n\nColombia Says Rebels Planned to Kill Bush A top official in Colombia",
+        "model_ft_medio_response": "Mundo"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "US economic indicators fall; new jobless claims rise A gauge of future business activity fell in August, indicating company managers and US consumers remain uncertain about the economy.",
+        "output": "Negócios",
+        "model_base_response": "### Estudos:\n\nA new survey shows that the majority of Brazilians are not satisfied with the way the",
+        "model_ft_medio_response": "Negócios"
     }
 ]

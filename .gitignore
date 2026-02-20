@@ -10,3 +10,5 @@ __pycache__/
 
 # Ignorar plots e PDFs
 *.pdf
+
+*.log

@@ -1,0 +1,352 @@
+[
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Baseball-Backe Pitches Astros to 2-1 Series Lead  HOUSTON (Reuters) - Brandon Backe, a little-known local,  who arrived in the shadow of famous hometown heroes Roger  Clemens and Andy Pettitte last winter, brought the Houston  Astros to within a game of the franchise's first postseason  series victory in an 8-5 win over the Atlanta Braves Saturday.",
+        "output": "Esportes",
+        "model_base_response": "The Astros, who had won the previous two games, had been trailing the Braves, who had won the previous two games,",
+        "model_ft_pequeno_response": "Esportes"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Ubiquitous browser hole an easy target for scammers Dec 10, 2004: A new web browser security hole has been uncovered by a security firm, which could provide scammers with the means to launch phishing attacks from pop-up windows on genuine, trusted websites.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "The flaw, which was discovered by security firm Symantec, allows a malicious user to send a specially crafted web page to",
+        "model_ft_pequeno_response": "Ciência/Tecnologia"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Iran Will Likely Freeze Nuke Enrichment-Official A senior Iranian official said on Thursday he was optimistic Iran would halt its uranium enrichment program as Europe demands, in a move aimed ",
+        "output": "Mundo",
+        "model_base_response": "at pressuring Tehran to halt its nuclear program.\nIranian President Hassan Rouhani said on Thursday that Iran would not halt its",
+        "model_ft_pequeno_response": "Mundo"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Manugistics Fires Its President Manugistics Group Inc. disclosed Monday that it fired its president, as the maker of business software tries to reverse slipping sales, rising costs and a falling stock price. &lt;BR&gt;&lt;FONT face=\"verdana,MS Sans Serif,arial,helvetica\" size=\"-2\"\\ color=\"#666666\"&gt;&lt;B&gt;-The Washington Post&lt;/B&gt;&lt;/FONT&gt;",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "&lt;/B&gt;\n\n### Instrução:\n\nCómo de esta inst",
+        "model_ft_pequeno_response": "Negócios"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Martinez Deal Finalized Martinez passes his physical, and the Mets finalize their \\$53 million, four-year contract with the pitcher.",
+        "output": "Esportes",
+        "model_base_response": "### Finalizar:\n\nMartinez Finalizar de esta comunidade de uma contract",
+        "model_ft_pequeno_response": "Esportes"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Hollywood Steps Into DVD Format Fight (AP) AP - Three top Hollywood studios are throwing their considerable weight behind one of two competing formats for the next generation of DVDs, citing in part the need to stem piracy.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "### Entrada:\n\nHollywood Steps Into DVD Format Fight (AP) AP - Three top Hollywood studios",
+        "model_ft_pequeno_response": "Ciência/Tecnologia"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Eriksson and Gerrard add to England woe ENGLAND #39;S troubled build-up to their Wales showdown continued yesterday with Steven Gerrard #39;s injury diagnosis and fresh uncertainty over Sven-Goran Eriksson #39;s position.",
+        "output": "Esportes",
+        "model_base_response": "### Dezepto:\n\nAguirre, Griezmann, and the rest of the",
+        "model_ft_pequeno_response": "Esportes"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Topics A, B and C in Run-up to Debate: Jobs, Jobs and Jobs John Kerry will assail President Bush tonight as the first president since Herbert Hoover to preside over a four-year term with fewer Americans working than when he began.",
+        "output": "Mundo",
+        "model_base_response": "### Themes:\n\nThe economy, jobs, jobs, jobs, jobs, jobs, jobs, jobs,",
+        "model_ft_pequeno_response": "Mundo"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Syria under Security Council Scrutiny ... A Gift from Syria to &lt;b&gt;...&lt;/b&gt; Syria has turned herself into cannon fodder in the campaigns directed against her during the American presidential election battle-a result of her miscalculations in the Lebanese presidential elections.",
+        "output": "Mundo",
+        "model_base_response": "###\n\nThe following is a list of the countries that have been targeted by the US in the past:",
+        "model_ft_pequeno_response": "Mundo"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "US Army to withhold portion of Halliburton payments The billing dispute between the US Army and Houston-based Halliburton Co. continues as the Army on Tuesday said it would withhold paying 15 percent of future invoices from Halliburton. ",
+        "output": "Negócios",
+        "model_base_response": "Â\n\nThe Army said it would withhold payments from Halliburton for the first quarter of fiscal year 2017, which ended",
+        "model_ft_pequeno_response": "Mundo"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Fan slapped with fine, five-year ban for racially abusing Yorke LONDON (AFP) - A British court slapped a 1,000-pound (1,880-dollar) fine and a five-year football ground ban on a fan for hurling monkey chants at Birmingham City striker Dwight Yorke.",
+        "output": "Esportes",
+        "model_base_response": "The fan, who cannot be named for legal reasons, was fined £100 and banned for five years after being found",
+        "model_ft_pequeno_response": "Esportes"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Mercury Astronaut Gordon Cooper, 77 Gordon Cooper, 77, one of the seven original US astronauts, who made the nation #39;s first manned spaceflights and became known as possessors of  quot;The Right Stuff, quot; died yesterday at his home in Ventura, Calif.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "He was 77.\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###\n\n###",
+        "model_ft_pequeno_response": "Mundo"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "THE SONG REMAINS THE SAME The Recording Industry Association of America has wielded a heavy legal arsenal in its war against illegal music downloads, including filing another round of lawsuits on Thursday - this time against 762 people.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "The Recording Industry Association of America (RIAA) has been fighting for years to stop illegal downloads of music, and has",
+        "model_ft_pequeno_response": "Ciência/Tecnologia"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Tri-Nations expansion RUGBY in the Pacific Islands has been dealt a huge blow after they were left out of a major shake-up in the southern hemispheres premier tournaments yesterday.",
+        "output": "Esportes",
+        "model_base_response": "The tournament, which was held in the Pacific Islands, was the first time that the Pacific Islands had been included in",
+        "model_ft_pequeno_response": "Esportes"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Flying the Sun to Safety When the Genesis capsule comes back to Earth with its samples of the sun, helicopter pilots will be waiting for it, ready to snag it out of the sky.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "### Avisão:\n\nAvisão: The Sun is Coming Back to Earth\n\n### Avis",
+        "model_ft_pequeno_response": "Ciência/Tecnologia"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Swedish ambassador says diplomats in North Korean saw no sign of &lt;b&gt;...&lt;/b&gt; Video footage of the area where North Korea said a huge explosion occurred showed dozens of workers swarming around a dusty construction site resembling a large dam project, while a foreign diplomat who visited the site said Friday he found no sign the ",
+        "output": "Mundo",
+        "model_base_response": "explosion had occurred.\nVideo footage of the area where North Korea said a huge explosion occurred showed dozens of workers sw",
+        "model_ft_pequeno_response": "Mundo"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "AirTran CEO Sees Another Airline Liquidation Soon The US airline industry, riddled with excess supply, will see a significant drop in capacity, or far fewer seats, as a result of at least one airline liquidating in the next year, according to AirTran Airways Chief Executive Joe Leonard.",
+        "output": "Negócios",
+        "model_base_response": "### Está em português:\n\nAbril de ou seu seu aç",
+        "model_ft_pequeno_response": "Negócios"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Williams wins, faces Russian in Beijing final Top seed Serena Williams battled her way into the China Open final yesterday, overcoming two service breaks to defeat Vera Zvonareva of Russia, 6-2, 6-3.",
+        "output": "Esportes",
+        "model_base_response": "The victory was Williams' first since winning the Australian Open in March.\n\nThe victory was Williams' first since",
+        "model_ft_pequeno_response": "Esportes"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "170 miners remain trapped in coalmine gas explosion By 1 pm on Sunday, 123 miners were rescued alive after a major gas explosion took place at the Chenjiashan Coalmine, Shaanxi Province, around 7:10 am but another 170 remained trapped underground.",
+        "output": "Mundo",
+        "model_base_response": "### Rescued:\n\nThe miners were rescued by the Shaanxi Provincial Disaster Response Team (SPDT",
+        "model_ft_pequeno_response": "Mundo"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Big stakes in holiday game scramble Game publishers and hardware makers will battle for consumers' holiday dollars with a slew of high-profile releases.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "### Entrada:\n\nA new generation of games for the PC, console and mobile platforms.",
+        "model_ft_pequeno_response": "Ciência/Tecnologia"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Langer hails team spirit Europe #39;s Ryder Cup captain Bernhard Langer has emphasised the strength of his players #39; team spirit ahead of Friday #39;s first day.",
+        "output": "Esportes",
+        "model_base_response": "### Está em que seu seu ação de uma instrução:\n\nA",
+        "model_ft_pequeno_response": "Esportes"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "UMass Arrests 35 After Game 6 of ALCS (AP) AP - University of Massachusetts police arrested 35 people early Wednesday morning after the Red Sox tied the Yankees in the sixth game of the American League Championship Series.",
+        "output": "Esportes",
+        "model_base_response": "### Police:\n\nUma instrução de próximo de próximos pr",
+        "model_ft_pequeno_response": "Esportes"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Group urges EPA to cut pollution If the government required deeper cuts in air pollution from power plants, at least 3,000 lives would be saved and 140,000 children would avoid asthma and other respiratory ailments, an environmental group said Tuesday.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "### Enseguir:\n\nAquí está uma instrução que descreve u",
+        "model_ft_pequeno_response": "Mundo"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "BBC set for major shake-up, claims newspaper London - The British Broadcasting Corporation, the world #39;s biggest public broadcaster, is to cut almost a quarter of its 28 000-strong workforce, in the biggest shake-up in its 82-year history, The Times newspaper in London said on Monday.",
+        "output": "Negócios",
+        "model_base_response": "### Dezeen:\n\nThe BBC is to cut almost a quarter of its 28 000-strong workforce,",
+        "model_ft_pequeno_response": "Mundo"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Kasprowicz causes dilemma AUSTRALIA captain Ricky Ponting says the form of Michael Kasprowicz has left the world champions with a problem to solve ahead of the ICC Champions Trophy, which gets underway in England this week.",
+        "output": "Esportes",
+        "model_base_response": "### Entrada:\n\nKasprowicz causes dilemma AUSTRALIA captain Ricky Ponting says the",
+        "model_ft_pequeno_response": "Esportes"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "After terror and invasion, Afghans vote (AFP) AFP - Three years after the September 11 attacks on the United States changed the course of Afghanistan's history, the shattered nation votes Saturday in unprecedented presidential elections.",
+        "output": "Mundo",
+        "model_base_response": "### Entrada:\n\nThe Taliban's victory in Afghanistan's presidential election has been hailed as a victory for",
+        "model_ft_pequeno_response": "Mundo"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Falcons Sign Crumpler to Contract Extension (Reuters) Reuters - The Atlanta Falcons\\Monday signed Pro Bowl tight end Alge Crumpler to a six-year\\contract extension.",
+        "output": "Esportes",
+        "model_base_response": "The deal is worth $24 million, according to a source familiar with the deal. The deal is the first extension for Cr",
+        "model_ft_pequeno_response": "Esportes"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Illinois Helps Residents Import Drugs (Reuters) Reuters - Illinois residents will soon gain\\access to lower-cost prescription drugs from Canada, the United\\Kingdom and Ireland, sidestepping U.S. regulators' objections\\to imported drugs, Gov. Rod Blagojevich said on Tuesday.",
+        "output": "Mundo",
+        "model_base_response": "\\The move is a victory for Illinois, which has been trying to attract more drug\\manufacturers to the state.\\",
+        "model_ft_pequeno_response": "Mundo"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Russia to lease India nuclear submarine - agencies (Reuters) Reuters - Russia will lease to India a nuclear-powered submarine capable of firing nuclear and conventional missiles, Russian news agencies reported on Thursday.",
+        "output": "Mundo",
+        "model_base_response": "### Entrada:\n\nRussia to lease India nuclear submarine - agencies (Reuters) Reuters - Russia will lease",
+        "model_ft_pequeno_response": "Mundo"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Shareholders rubber-stamp Microsoft payout Approval of changes to employee stock compensation paves way for \\$32 billion bonanza for shareholders.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "### Está em português:\n\nAbrilção de Microsoft, a Microsoft-owned",
+        "model_ft_pequeno_response": "Negócios"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "NBA Suspends Bucks' Fizer for One Game (AP) AP - The NBA suspended Milwaukee Bucks forward Marcus Fizer on Tuesday for one game following his guilty plea on a gun charge.",
+        "output": "Esportes",
+        "model_base_response": "Fizer was arrested in April after police said he fired a gun at a woman in a parking lot. He was charged with",
+        "model_ft_pequeno_response": "Esportes"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Redskins top Lions (11/08/04) The Washington Redskins grabbed a 17-to-10 win over the Detroit Lions at Ford Field. Clinton Portis ran for 147 yards on 34 carries and threw a tiebreaking touchdown pass.",
+        "output": "Esportes",
+        "model_base_response": "### Entrada:\n\nRedskins top Lions (11/08/04) The Washington Redskins grabbed",
+        "model_ft_pequeno_response": "Esportes"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "UK initiative on climate change Tony Blair is to host a major scientific conference on climate change in February as part of an attempt to create an international consensus on the science involved and so lock the US and the G8 group of industrial nations into action beyond the Kyoto ",
+        "output": "Mundo",
+        "model_base_response": "état.\n\n### The conference will be held in London, the UK, and will be attended by the heads of",
+        "model_ft_pequeno_response": "Mundo"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Motorola Third-Quarter Earnings Rise  CHICAGO (Reuters) - Motorola Inc. &lt;A HREF=\"http://www.investor.reuters.com/FullQuote.aspx?ticker=MOT.N target=/stocks/quickinfo/fullquote\"&gt;MOT.N&lt;/A&gt;, the world's No.  2 maker of cell phones, on Tuesday said its quarterly profit  rose sharply, helped by improving sales of a host of new  handset models.",
+        "output": "Negócios",
+        "model_base_response": "Motorola's profit rose to $1.05 billion, or $1.03 a share, from $1",
+        "model_ft_pequeno_response": "Negócios"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Yahoo boosts music portal (SiliconValley.com) SiliconValley.com - Yahoo, seeking to add e-commerce to its Internet music portal, will pay  #36;160 million in cash to acquire Musicmatch, a critically acclaimed but little known music jukebox and download service.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "### Esta instrução:\n\nYahoo, a leading Internet company, is seeking to acquire Music",
+        "model_ft_pequeno_response": "Ciência/Tecnologia"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Ace is wild NEW YORK -- Slice it any which way and the pie looks the same. The piece that represents the odds of the Red Sox overtaking the Yankees for the division title after a lost weekend in the Bronx is skinnier than Calista Flockhart.",
+        "output": "Esportes",
+        "model_base_response": "### Ação:\n\nAçação de uma instrução que descreve uma",
+        "model_ft_pequeno_response": "Esportes"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Priest Who Disrupted Olympics in Abuse Trial  LONDON (Reuters) - A former Irish priest famous for stunts  that disrupted the marathon at the Athens Olympics and  Britain's Grand Prix denied charges on Wednesday of indecency  with a schoolgirl.",
+        "output": "Esportes",
+        "model_base_response": "The priest, Father John O'Connor, was charged with indecency with a child under 16 and indecent assault.",
+        "model_ft_pequeno_response": "Mundo"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "End of Series will bring a lot of questions Now what? Was winning the World Series truly the last hurrah for franchise players Pedro Martinez and Jason Varitek and more than a dozen teammates, including Derek Lowe and Orlando Cabrera , who are eligible for free agency?",
+        "output": "Esportes",
+        "model_base_response": "### The answer is yes.\n\nThe team has agreed to terms with the players on a new contract, which",
+        "model_ft_pequeno_response": "Esportes"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "North Korea says Bush worse than Hitler North Korea has described US President George W. Bush as a tyrannical political imbecile. who put Adolf Hitler in the shade and said Pyongyang could see no justification for talks with his administration.",
+        "output": "Mundo",
+        "model_base_response": "### Entrada:\n\nNão de cada criatura de cada criatura",
+        "model_ft_pequeno_response": "Mundo"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Alaska Brown Bears Gather for Annual Salmon Feast Each summer, the falls at McNeil River turn into a mosh pit of bears. Instead of thumping music, it's the sound of salmon slapping their way up the falls at the McNeil River State Game Sanctuary that sends the bears into a fishing frenzy.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "### Enseguir:\n\nAlaska Brown Bears Gather for Annual Salmon Feast The Alaska Brown Bears are",
+        "model_ft_pequeno_response": "Mundo"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Nanotech funding to grow to \\$8.6 billion Spending on research will more than double this year, with a growing amount coming from the private sector.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "### Research:\n\nNanotech is a $8.6 billion industry, with $8.6 billion",
+        "model_ft_pequeno_response": "Ciência/Tecnologia"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "U.S. Sees Possible Attacks in Uzbekistan (Reuters) Reuters - The State Department said on Tuesday\\it had information that \"terrorists may be planning to launch\\new attacks\" in Uzbekistan around the time of Uzbek\\Independence Day celebrations in early September.",
+        "output": "Mundo",
+        "model_base_response": "\\The U.S. Embassy in Uzbekistan said it had received information that the group may be planning to launch a new",
+        "model_ft_pequeno_response": "Mundo"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "UN: N. Korean Environment in Poor Shape SEOUL, South Korea - North Korea #39;s forests are depleted, its rivers and streams are filled with runoff from factories and a reliance on coal energy has created severe urban air pollution, the United Nations said Friday in its first report on the communist ",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "vernacular nation. The report, released in Seoul, said the country's forests are depleted, its rivers and streams are filled",
+        "model_ft_pequeno_response": "Mundo"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Ohio St. Forces Turnovers to Top N.C. St. (AP) AP - The Luckeyes' magic is alive and well. Ohio State made up for a shoddy day offensively by forcing five turnovers, and Mike Nugent tied a school record with five field goals to give the ninth-ranked Buckeyes a 22-14 victory over North Carolina State on Saturday.",
+        "output": "Esportes",
+        "model_base_response": "### Entrada:\n\nOhio St. Wins in Big Ten Championship Game (AP) AP - The Buc",
+        "model_ft_pequeno_response": "Esportes"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Solberg wins first WRC event in Sardinia. Subaru team leader Petter Solberg has won the Rally Italia Sardinia today Sunday, dominating the event from the outset, and eventually taking the honours by 2 minutes 7.9 seconds.",
+        "output": "Esportes",
+        "model_base_response": "### Entre:\n\nThe first ever WRC event in Sardinia is now over. Subaru team leader Pet",
+        "model_ft_pequeno_response": "Esportes"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Apple extends PowerBook screen repair program Apple Computer is offering free replacement screens to owners of 15-inch PowerBook models whose machines have a flaw that causes the screen to display white spots.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "The program is available for the following models: PowerBook 15, 15.1, 15.2, 15.3,",
+        "model_ft_pequeno_response": "Ciência/Tecnologia"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Stocks Seen Flat at Open; Oil Edging Up US stocks look to open flat on Monday as investors pause after a busy week on Wall Street, with oil prices ticking higher and the dollar still hovering near record lows.",
+        "output": "Negócios",
+        "model_base_response": "### Instrução:\n\nClassifique o texto da notícia abaixo em",
+        "model_ft_pequeno_response": "Negócios"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "Edwards Calls for Crackdown on Meth Labs (AP) AP - Democratic vice presidential nominee John Edwards called Monday for tighter restrictions on the sale of nonprescription cold medicines that could be used to make methamphetamine.",
+        "output": "Mundo",
+        "model_base_response": "### Editorial:\n\nThe New York Times (NYT) - The New York Times editorial board says that the",
+        "model_ft_pequeno_response": "Mundo"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "China Bans Video Game for Breach of Sovereignty  BEIJING (Reuters) - China, sensitive about issues of  national sovereignty, has banned a computer sports game that  classifies Taiwan, Hong Kong, Macau and Tibet as countries and  has threatened to fine Web sites that supply the game and net  cafes that let patrons download it.",
+        "output": "Ciência/Tecnologia",
+        "model_base_response": "The ban, which was announced on Wednesday, is the latest in a series of moves by China to restrict access to  games",
+        "model_ft_pequeno_response": "Mundo"
+    },
+    {
+        "instruction": "Classifique o texto da notícia abaixo em uma das seguintes categorias: Mundo, Esportes, Negócios ou Ciência/Tecnologia.",
+        "input": "In Our View: Sanctions not enough for Sudan While most of the country #39;s attention has been focused on Iraq, a human-rights crisis has been unfolding in north Africa. In Darfur, Sudan, more than 50,000 people have been killed and 1.2 million displaced ",
+        "output": "Mundo",
+        "model_base_response": "since the start of the conflict in March 2011. The UN estimates that more than half of the country's population is now",
+        "model_ft_pequeno_response": "Mundo"
+    }
+]
